@@ -1,21 +1,20 @@
 # FirmAI Finance II
-This repository is inspired by:
- https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading
- And finnance in other one. 
- 
+
 
 # Trading
 ## Deep Learning
 
-Deep Learning - https://github.com/keon/deepstock
-Deep Learning II - https://github.com/LiamConnell/deep-algotrading/tree/master/notebooks
-Deep Learning III - https://github.com/Rachnog/Deep-Trading
-Deep Learning IV - https://github.com/achillesrasquinha/bulbea
-Deep Learning V - https://github.com/keon/deepstock
-LTSM GRU — https://github.com/RajatHanda/Finance-Forecasting
-[Time Series Stock Prediction](https://github.com/VivekPa/AIAlpha) - Using an LTSM model to predict future changes in the stock price.
-[Time Series Stock Prediction](https://github.com/NourozR/Stock-Price-Prediction-LSTM) - OHLC Average Prediction of Apple Inc. Using LSTM Recurrent Neural Network
-Neural Network - https://github.com/VivekPa/IntroNeuralNetworks - Neural networks to predict stock prices
+
+- Deep Learning - https://github.com/keon/deepstock
+- Deep Learning II - https://github.com/LiamConnell/deep-algotrading/tree/master/notebooks
+- Deep Learning III - https://github.com/Rachnog/Deep-Trading
+- Deep Learning IV - https://github.com/achillesrasquinha/bulbea
+- Deep Learning V - https://github.com/keon/deepstock
+- LTSM GRU — https://github.com/RajatHanda/Finance-Forecasting
+- Time Series Stock Prediction - Using an LTSM model to predict future changes in the stock price.
+- Time Series Stock Prediction - OHLC Average Prediction of Apple Inc. Using LSTM Recurrent Neural Network
+- Neural Network - https://github.com/VivekPa/IntroNeuralNetworks - Neural networks to predict stock prices
+
 
 
 ## Reinforcement Learning
