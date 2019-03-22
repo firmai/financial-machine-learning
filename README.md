@@ -1,4 +1,4 @@
-# FirmAI Finance II
+# Financial Machine Learning and Data Science
 
 ![](https://softmedialab.com/wp-content/uploads/2018/08/Financial-applications-of-machine-learning-OG.jpeg)
 
