@@ -5,7 +5,7 @@
 
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
 
-If you want to contribute to this list (please do), send me a pull request or contact me [@dereknow](https://twitter.com/dereknow) or profile for email. Also, a listed repository should be deprecated if:
+If you want to contribute to this list (please do), send me a pull request or contact me [@dereknow](https://twitter.com/dereknow) or on [linkedin](https://www.linkedin.com/in/snowderek/). Also, a listed repository should be deprecated if:
 
 - Repository's owner explicitly say that "this library is not maintained".
 - Not committed for long time (2~3 years).
