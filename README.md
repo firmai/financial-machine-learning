@@ -24,6 +24,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 
 ## Reinforcement Learning
+- [RL Trading(https://colab.research.google.com/drive/1FzLCI0AO3c7A4bp9Fi01UwXeoc7BN8sW) - A collection of 25+ Reinforcement Learning Trading Strategies - Google Colab. 
 - [RL](https://github.com/kh-kim/stock_market_reinforcement_learning) - OpenGym with Deep Q-learning and Policy Gradient.
 - [RL II](https://github.com/deependersingla/deep_trader) - reinforcement learning on stock market and agent tries to learn trading.
 - [RL III](https://github.com/samre12/deep-trading-agent) -  Github - Deep Reinforcement Learning based Trading Agent for Bitcoin.
