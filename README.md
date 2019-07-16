@@ -179,3 +179,11 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [https://stooq.com](https://stooq.com)
 - [https://github.com/timestocome/StockMarketData](https://github.com/timestocome/StockMarketData)
 
+
+# Personal Papers
+- [Financial Machine Learning Regulation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3371902)
+- [Predicting Restaurant Facility Closures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420490)
+- [Predicting Corporate Bankruptcies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420889)
+- [Predicting Earnings Surprises](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420722) 
+- [Machine Learning in Asset Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420952) 
+
