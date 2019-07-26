@@ -1,8 +1,5 @@
 # Financial Machine Learning and Data Science
 
-![](https://softmedialab.com/wp-content/uploads/2018/08/Financial-applications-of-machine-learning-OG.jpeg)
-
-
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
 
 If you want to contribute to this list (please do), send me a pull request or contact me [@dereknow](https://twitter.com/dereknow) or on [linkedin](https://www.linkedin.com/in/snowderek/). Also, a listed repository should be deprecated if:
