@@ -184,3 +184,13 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [Predicting Earnings Surprises](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420722) 
 - [Machine Learning in Asset Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420952) 
 
+# Colleges, Centers and Departments
+
+- NYU FRE
+- Cornell University
+- Courant NYU
+- Oxford Man
+- Stanford Advanced Financial Technologies
+- Berkley CIFT
+
+
