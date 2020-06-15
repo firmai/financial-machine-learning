@@ -178,10 +178,9 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 
 # Personal Papers
-- [Financial Machine Learning Regulation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3371902)
-- [Predicting Restaurant Facility Closures](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420490)
-- [Predicting Corporate Bankruptcies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420889)
-- [Predicting Earnings Surprises](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420722) 
+- [Financial Event Prediction using Machine Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3481555)
+- [Machine Learning in Asset Management—Part 1: Portfolio Construction—Trading Strategies](https://jfds.pm-research.com/content/2/1/10)
+- [Machine Learning in Asset Management—Part 2: Portfolio Construction—Weight Optimization](https://jfds.pm-research.com/content/2/2/17)
 - [Machine Learning in Asset Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420952) 
 
 # Colleges, Centers and Departments
