@@ -53,6 +53,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [Online Portfolio Selection](https://nbviewer.jupyter.org/github/paulperry/quant/blob/master/OLPS_Comparison.ipynb) - ****Comparing OLPS algorithms on a diversified set of ETFs.
 - [OLMAR Algorithm](https://github.com/charlessutton/OLMAR/blob/master/Part3.ipynb) - Relative importance of each component of the OLMAR algorithm.
 - [Modern Portfolio Theory](https://nbviewer.jupyter.org/github/Marigold/universal-portfolios/blob/master/modern-portfolio-theory.ipynb) - Universal portfolios; modern portfolio theory. 
+- [DeepDow](https://github.com/jankrepl/deepdow) - Portfolio optimization with deep learning.
 ## Factor and Risk Analysis:
 - [Various Risk Measures](https://github.com/Jorgencr/Alternative-and-Responsible-Investments/blob/master/Final_masterfile.ipynb) -  Risk measures and factors for alternative and responsible investments. 
 - [Pyfolio](https://github.com/quantopian/pyfolio) -  Portfolio and risk analytics in Python.
