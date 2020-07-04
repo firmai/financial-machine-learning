@@ -196,7 +196,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 # Advertiser
 
-<a href="https%3A%2F%2Ftracking.gitads.io%2F%3Frepo%3Dfinancial-machine-learning%2F&data=02%7C01%7C%7Cf76ab5d7eb4e4853ecde08d81e9fdc4f%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637293019225045269&sdata=H%2FQVAJYlu6wclz20MeYTZAkEb0dHNS4sXjuCBnMkmsg%3D&reserved=0">
+<a href="https://tracking.gitads.io/?repo=financial-machine-learning/">
    <img alt="Qries" src="https://images.gitads.io/financial-machine-learning/"
    width=350" >
 </a>
