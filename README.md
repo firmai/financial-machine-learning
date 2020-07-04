@@ -1,14 +1,5 @@
 # Financial Machine Learning and Data Science
 
-![](https://images.gitads.io/financial-machine-learning/)
-
-See advertiser [here](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftracking.gitads.io%2F%3Frepo%3Dfinancial-machine-learning%2F&data=02%7C01%7C%7Cf76ab5d7eb4e4853ecde08d81e9fdc4f%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637293019225045269&sdata=H%2FQVAJYlu6wclz20MeYTZAkEb0dHNS4sXjuCBnMkmsg%3D&reserved=0). 
-
-<a href="https%3A%2F%2Ftracking.gitads.io%2F%3Frepo%3Dfinancial-machine-learning%2F&data=02%7C01%7C%7Cf76ab5d7eb4e4853ecde08d81e9fdc4f%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637293019225045269&sdata=H%2FQVAJYlu6wclz20MeYTZAkEb0dHNS4sXjuCBnMkmsg%3D&reserved=0">
-   <img alt="Qries" src="https://images.gitads.io/financial-machine-learning/"
-   width=150" height="70">
-</a>
-
 
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
 
@@ -202,5 +193,12 @@ If you want to contribute to this list (please do), send me a pull request or co
 - Oxford Man
 - Stanford Advanced Financial Technologies
 - Berkley CIFT
+
+# Advertiser
+
+<a href="https%3A%2F%2Ftracking.gitads.io%2F%3Frepo%3Dfinancial-machine-learning%2F&data=02%7C01%7C%7Cf76ab5d7eb4e4853ecde08d81e9fdc4f%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637293019225045269&sdata=H%2FQVAJYlu6wclz20MeYTZAkEb0dHNS4sXjuCBnMkmsg%3D&reserved=0">
+   <img alt="Qries" src="https://images.gitads.io/financial-machine-learning/"
+   width=350" >
+</a>
 
 
