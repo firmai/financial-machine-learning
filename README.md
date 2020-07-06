@@ -196,6 +196,8 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 # Advertiser
 
+“This repo is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial”
+
 <a href="https://tracking.gitads.io/?repo=financial-machine-learning/">
    <img alt="Qries" src="https://images.gitads.io/financial-machine-learning/"
    width=350" >
