@@ -14,7 +14,6 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [Deep Learning III](https://github.com/Rachnog/Deep-Trading) - Algorithmic trading with deep learning experiments.
 - [Deep Learning IV](https://github.com/achillesrasquinha/bulbea) - Bulbea: Deep Learning based Python Library.
 - [LTSM GRU](https://github.com/RajatHanda/Finance-Forecasting) - Stock Market Forecasting using LSTM\GRU.
--  - Multilayer neural network architecture for stock return prediction.
 - [LTSM Recurrent](https://github.com/VivekPa/AIAlpha) - OHLC Average Prediction of Apple Inc. Using LSTM Recurrent Neural Network.
 - [ARIMA-LTSM Hybrid](https://github.com/imhgchoi/Corr_Prediction_ARIMA_LSTM_Hybrid) - Hybrid model to predict future price correlation coefficients of two assets.
 - [Neural Network](https://github.com/VivekPa/IntroNeuralNetworks) -  Neural networks to predict stock prices.
@@ -187,11 +186,11 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 # Colleges, Centers and Departments
 
-- NYU FRE
-- Cornell University
-- Courant NYU
-- Oxford Man
-- Stanford Advanced Financial Technologies
+- [NYU FRE](https://engineering.nyu.edu/academics/departments/finance-and-risk-engineering) - Finance and Risk Engineering (NYU Tandon)
+- [Cornell University](https://www.cornell.edu/)
+- [NYU Courant](https://cims.nyu.edu/) - Courant Institute of Mathematical Sciences, New York University
+- [Oxford Man](https://www.oxford-man.ox.ac.uk/) - Oxford-Man Institute of Quantitative Finance
+- [Stanford Advanced Financial Technologies](https://fintech.stanford.edu/) - Stanford Advanced Financial Technologies Laboratory
 - Berkley CIFT
 
 # Advertiser
