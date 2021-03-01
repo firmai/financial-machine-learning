@@ -47,6 +47,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [Distribution Characteristic Optimisation](https://github.com/VivekPa/OptimalPortfolio) - Extends classical portfolio optimisation to take the skewness and kurtosis of the distribution of market invariants into account.
 - [Reinforcement Learning](https://github.com/filangel/qtrader) - Reinforcement Learning for Portfolio Management.
 - [Efficient Frontier](https://github.com/tthustla/efficient_frontier/blob/master/Efficient%20_Frontier_implementation.ipynb) - Modern Portfolio Theory.
+- [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) - Financial portfolio optimisation, including classical efficient frontier and advanced methods.
 - [Policy Gradient Portfolio](https://github.com/ZhengyaoJiang/PGPortfolio) - A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem.
 - [Deep Portfolio Theory](https://github.com/tcloaa/Deep-Portfolio-Theory) - Autoencoder framework for portfolio selection. 
 - [401K Portfolio Optimisation](https://github.com/otosman/Python-for-Finance/blob/master/Portfolio%20Optimization%20401k.ipynb) - Portfolio analyses and optimisation for 401K. 
