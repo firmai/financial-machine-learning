@@ -163,7 +163,7 @@ If you want to contribute to this list (please do), send me a pull request or co
 
 
 # Data
-- [Capital Markets Data [chartpack](https://1drv.ms/b/s!AjyO2n0JmhakhJIy-jZXLsLGxOw38Q?e=uOuPKY)](https://www.capitalmarketsdata.com/)
+- [Capital Markets Data](https://www.capitalmarketsdata.com/) and [chartpack](https://1drv.ms/b/s!AjyO2n0JmhakhJIy-jZXLsLGxOw38Q?e=uOuPKY)]
 - [Employee Count SEC Filings](https://github.com/healthgradient/sec_employee_information_extraction)
 - [SEC Parsing](https://github.com/healthgradient/sec-doc-info-extraction/blob/master/classify_sections_containing_relevant_information.ipynb)
 - [Open Edgar](https://github.com/LexPredict/openedgar)
