@@ -1,5 +1,7 @@
 # Financial Machine Learning and Data Science
 
+**Please contact me to take over and revamp this repo, I don't have time to update or maintain it - message 15/03/2021**
+
 
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
 
