@@ -5,7 +5,7 @@
 
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
 
-If you want to contribute to this list (please do), send me a pull request or contact me [@dereknow](https://twitter.com/dereknow) or on [linkedin](https://www.linkedin.com/in/snowderek/). Also, a listed repository should be deprecated if:
+If you want to contribute to this list (please do), send me a pull request or contact [@dereknow](https://twitter.com/dereknow) or @bin-yang-algotune. Also, a listed repository should be deprecated if:
 
 - Repository's owner explicitly say that "this library is not maintained".
 - Not committed for long time (2~3 years).
@@ -181,12 +181,6 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [https://stooq.com](https://stooq.com)
 - [https://github.com/timestocome/StockMarketData](https://github.com/timestocome/StockMarketData)
 
-
-# Personal Papers
-- [Financial Event Prediction using Machine Learning](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3481555)
-- [Machine Learning in Asset Management—Part 1: Portfolio Construction—Trading Strategies](https://jfds.pm-research.com/content/2/1/10)
-- [Machine Learning in Asset Management—Part 2: Portfolio Construction—Weight Optimization](https://jfds.pm-research.com/content/2/2/17)
-- [Machine Learning in Asset Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420952) 
 
 # Colleges, Centers and Departments
 
