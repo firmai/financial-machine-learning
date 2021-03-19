@@ -1,0 +1,147 @@
+,name,url,comment,category
+0,Deep Learning,https://github.com/keon/deepstock,Technical experimentations to beat the stock market using deep learning.,Deep Learning
+1,Deep Learning II,https://github.com/LiamConnell/deep-algotrading/tree/master/notebooks,Tensorflow Regression.,Deep Learning
+2,Deep Learning III,https://github.com/Rachnog/Deep-Trading,Algorithmic trading with deep learning experiments.,Deep Learning
+3,Deep Learning IV,https://github.com/achillesrasquinha/bulbea,Bulbea: Deep Learning based Python Library.,Deep Learning
+4,LTSM GRU,https://github.com/RajatHanda/Finance-Forecasting,Stock Market Forecasting using LSTM\GRU.,Deep Learning
+5,LTSM Recurrent,https://github.com/VivekPa/AIAlpha,OHLC Average Prediction of Apple Inc. Using LSTM Recurrent Neural Network.,Deep Learning
+6,ARIMA-LTSM Hybrid,https://github.com/imhgchoi/Corr_Prediction_ARIMA_LSTM_Hybrid,Hybrid model to predict future price correlation coefficients of two assets.,Deep Learning
+7,Neural Network,https://github.com/VivekPa/IntroNeuralNetworks,Neural networks to predict stock prices.,Deep Learning
+8,AI Trading,https://github.com/borisbanushev/stockpredictionai/blob/master/readme2.md,AI to predict stock market movements.,Deep Learning
+9,RL Trading,https://colab.research.google.com/drive/1FzLCI0AO3c7A4bp9Fi01UwXeoc7BN8sW,A collection of 25+ Reinforcement Learning Trading Strategies -Google Colab.,Reinforcement Learning
+10,RL,https://github.com/kh-kim/stock_market_reinforcement_learning,OpenGym with Deep Q-learning and Policy Gradient.,Reinforcement Learning
+11,RL II,https://github.com/deependersingla/deep_trader,reinforcement learning on stock market and agent tries to learn trading.,Reinforcement Learning
+12,RL III,https://github.com/samre12/deep-trading-agent,Github -Deep Reinforcement Learning based Trading Agent for Bitcoin.,Reinforcement Learning
+13,RL IV,https://github.com/jjakimoto/DQN,Reinforcement Learning for finance.,Reinforcement Learning
+14,RL V,https://github.com/gstenger98/rl-finance,Building an Agent to Trade with Reinforcement Learning.,Reinforcement Learning
+15,Pair Trading RL,https://github.com/shenyichen105/Deep-Reinforcement-Learning-in-Stock-Trading,Using deep actor-critic model to learn best strategies in pair trading.,Reinforcement Learning
+16,Mixture  Models I,https://github.com/BlackArbsCEO/Mixture_Models,Mixture models to predict market bottoms.,Other Models
+17,Mixture Models II,https://github.com/BlackArbsCEO/mixture_model_trading_public,Mixture models and stock trading.,Other Models
+18,Scikit-learn Stock Prediction,https://github.com/robertmartin8/MachineLearningStocks,Using python and scikit-learn to make stock predictions.,Other Models
+19,Fundamental LT Forecasts,https://github.com/Hvass-Labs/FinanceOps,Research in investment finance for long term forecasts.,Other Models
+20,Short-Term Movement Cues,https://github.com/anfederico/Clairvoyant,Identify  social/historical cues for short term stock movement.,Other Models
+21,Trend Following,http://inseaddataanalytics.github.io/INSEADAnalytics/ExerciseSet2.html,A futures trend following portfolio investment strategy.,Other Models
+22,Advanced ML,https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises,Exercises too Financial Machine Learning (De Prado).,Data Processing Techniques and Transformations
+23,Advanced ML II,https://github.com/hudson-and-thames/research,More implementations of Financial Machine Learning (De Prado).,Data Processing Techniques and Transformations
+24,Distribution Characteristic Optimisation,https://github.com/VivekPa/OptimalPortfolio,Extends classical portfolio optimisation to take the skewness and kurtosis of the distribution of market invariants into account.,Portfolio Selection and Optimisation
+25,Reinforcement Learning,https://github.com/filangel/qtrader,Reinforcement Learning for Portfolio Management.,Portfolio Selection and Optimisation
+26,Efficient Frontier,https://github.com/tthustla/efficient_frontier/blob/master/Efficient%20_Frontier_implementation.ipynb,Modern Portfolio Theory.,Portfolio Selection and Optimisation
+27,PyPortfolioOpt,https://github.com/robertmartin8/PyPortfolioOpt,"Financial portfolio optimisation, including classical efficient frontier and advanced methods.",Portfolio Selection and Optimisation
+28,Policy Gradient Portfolio,https://github.com/ZhengyaoJiang/PGPortfolio,A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem.,Portfolio Selection and Optimisation
+29,Deep Portfolio Theory,https://github.com/tcloaa/Deep-Portfolio-Theory,Autoencoder framework for portfolio selection.,Portfolio Selection and Optimisation
+30,401K Portfolio Optimisation,https://github.com/otosman/Python-for-Finance/blob/master/Portfolio%20Optimization%20401k.ipynb,Portfolio analyses and optimisation for 401K.,Portfolio Selection and Optimisation
+31,Online Portfolio Selection,https://nbviewer.jupyter.org/github/paulperry/quant/blob/master/OLPS_Comparison.ipynb,****Comparing OLPS algorithms on a diversified set of ETFs.,Portfolio Selection and Optimisation
+32,OLMAR Algorithm,https://github.com/charlessutton/OLMAR/blob/master/Part3.ipynb,Relative importance of each component of the OLMAR algorithm.,Portfolio Selection and Optimisation
+33,Modern Portfolio Theory,https://nbviewer.jupyter.org/github/Marigold/universal-portfolios/blob/master/modern-portfolio-theory.ipynb,Universal portfolios; modern portfolio theory.,Portfolio Selection and Optimisation
+34,DeepDow,https://github.com/jankrepl/deepdow,Portfolio optimization with deep learning.,Portfolio Selection and Optimisation
+35,Various Risk Measures,https://github.com/Jorgencr/Alternative-and-Responsible-Investments/blob/master/Final_masterfile.ipynb,Risk measures and factors for alternative and responsible investments.,Factor and Risk Analysis:
+36,Pyfolio,https://github.com/quantopian/pyfolio,Portfolio and risk analytics in Python.,Factor and Risk Analysis:
+37,Risk Basic,https://github.com/RJT1990/Active-Portfolio-Management-Notes/blob/master/Chapter%203%2C%20Risk.ipynb,Active portfolio risk management .,Factor and Risk Analysis:
+38,CAPM,https://github.com/RJT1990/Active-Portfolio-Management-Notes/blob/master/Chapter%202%2C%20CAPM.ipynb,Expected returns using CAPM.,Factor and Risk Analysis:
+39,Factor Analysis,https://github.com/garvit-kudesia91/factor_analysis/blob/master/Factor%20Analysis%20of%20Mutual%20Funds.ipynb,Factor analysis for mutual funds.,Factor and Risk Analysis:
+40,VaR GaN,https://github.com/hamaadshah/market_risk_gan_keras,Estimate Value-at-Risk for market risk management using Keras and TensorFlow.,Factor and Risk Analysis:
+41,VaR,https://github.com/willb/var-notebook/blob/master/var-notebook/var-pdfs.ipynb,Value-at-risk calculations.,Factor and Risk Analysis:
+42,Python for Finance,https://github.com/yhilpisch/py4fi/tree/master/jupyter36,Various financial notebooks.,Factor and Risk Analysis:
+43,Performance Analysis,https://github.com/quantopian/alphalens,Performance analysis of predictive (alpha) stock factors.,Factor and Risk Analysis:
+44,Quant Finance,https://github.com/mrefermat/quant_finance,General quant repository.,Factor and Risk Analysis:
+45,Risk and Return,https://github.com/PyDataBlog/Python-for-Data-Science/tree/master/Tutorials,Riskiness of portfolios and assets.,Factor and Risk Analysis:
+46,Convex Optimisation,https://github.com/ssanderson/convex-optimization-for-finance/blob/master/notebooks/Main.ipynb,Convex Optimization for Finance.,Factor and Risk Analysis:
+47,Factor Analysis,https://github.com/alpha-miner/alpha-mind/tree/master/notebooks,Factor strategy notebooks.,Factor and Risk Analysis:
+48,Statistical Finance,https://github.com/mrefermat/FinancePhD/tree/master/FinancialExperiments,Various financial experiments.,Factor and Risk Analysis:
+49,PCA Pairs Trading,https://github.com/joelQF/quant-finance/tree/master/Artificial_IntelIigence_for_Trading,"PCA, Factor Returns, and trading strategies.",Unsupervised:
+50,Fund Clusters,https://github.com/frechfrechfrech/Mutual-Fund-Market-Clusters/blob/master/Initial%20Data%20Exploration.ipynb,Data exploration of fund clusters.,Unsupervised:
+51,VRA Stock Embedding,https://github.com/ml-hongkong/stock2vec,Variational Reccurrent Autoencoder for Embedding stocks to vectors based on the price history.,Unsupervised:
+52,Industry Clustering,https://github.com/SeanMcOwen/FinanceAndPython.com-ClusteringIndustries,Clustering of industries.,Unsupervised:
+53,Pairs Trading,https://github.com/marketneutral/pairs-trading-with-ML/blob/master/Pairs%2BTrading%2Bwith%2BMachine%2BLearning.ipynb,Finding pairs with cluster analysis.,Unsupervised:
+54,Industry Clustering,https://github.com/SeanMcOwen/FinanceAndPython.com-ClusteringIndustries,Project to cluster industries according to financial attributes.,Unsupervised:
+55,NLP,https://github.com/toamitesh/NLPinFinance,This project assembles a lot of NLP operations needed for finance domain.,Textual:
+56,Earning call transcripts,https://github.com/lin882/WebAnalyticsProject,Correlation between mutual fund investment decision and earning call transcripts.,Textual:
+57,Buzzwords,https://github.com/swap9047/Cutting-Edge-Technologies-Effect-on-S-P500-Companies-Performance-and-Mutual-Funds,Return performance and mutual fund selection.,Textual:
+58,Fund classification,https://github.com/frechfrechfrech/Mutual-Fund-Market-Clusters/blob/master/Initial%20Data%20Exploration.ipynb,Fund classification using text mining and NLP.,Textual:
+59,NLP Event,https://github.com/yuriak/DLQuant,Applying Deep Learning and NLP in Quantitative Trading.,Textual:
+60,Financial Sentiment Analysis,https://github.com/EricHe98/Financial-Statements-Text-Analysis,"Sentiment, distance and proportion analysis for trading signals.",Textual:
+61,Financial Statement Sentiment,https://github.com/MAydogdu/TextualAnalysis,Extracting sentiment from financial statements using neural networks.,Textual:
+62,Extensive NLP,https://github.com/TiesdeKok/Python_NLP_Tutorial/blob/master/NLP_Notebook.ipynb,Comprehensive NLP techniques for accounting research.,Textual:
+63,Accounting Anomalies,https://github.com/GitiHubi/deepAI/blob/master/GTC_2018_Lab-solutions.ipynb,Using deep-learning frameworks to identify accounting anomalies.,Textual:
+64,Options,https://github.com/QuantConnect/Tutorials/tree/master/06%20Introduction%20to%20Options%5B%5D,Introduction to options.,Derivatives and Hedging:
+65,Derivative Markets,https://github.com/broughtj/Fin6470/tree/master/Notebooks,"The economics of futures, futures, options, and swaps.",Derivatives and Hedging:
+66,Black Scholes,https://github.com/irajwani/numerical_methods_python/blob/master/black_scholes.ipynb,Options pricing.,Derivatives and Hedging:
+67,Computational Derivatives,https://github.com/chenbowen184/Computational_Finance,Projects focusing on investigating simulations and computational techniques applied in finance.,Derivatives and Hedging:
+68,Reinforcement Learning,https://github.com/FinTechies/HedgingRL,Hedging portfolios with reinforcement learning.,Derivatives and Hedging:
+69,Delta Hedging,https://github.com/RobinsonGarcia/delta-hedging,Advanced derivatives.,Derivatives and Hedging:
+70,Options Risk Measures,https://github.com/wanglouis49/risk_estimation,Efficient financial risk estimation via computer experiment design (regression + variance-reduced sampling).,Derivatives and Hedging:
+71,Derivatives Python,https://github.com/yhilpisch/dawp/tree/master/python36,Derivative analytics with Python.,Derivatives and Hedging:
+72,Volatility and Variance Derivatives,https://github.com/yhilpisch/lvvd/tree/master/lvvd,Volatility derivatives analytics.,Derivatives and Hedging:
+73,Options,https://github.com/PHBS/2018.M1.ASP/tree/master/py,Black Scholes and Copula.,Derivatives and Hedging:
+74,Option Strategies,https://github.com/rstreppa/valuation-OptionStrategies,"Valuation of Vanilla and Exotic option strategies (Butterfly, Risk Reversal etc.) with widget animations.",Derivatives and Hedging:
+75,Derman,https://github.com/rstreppa/valuation-convertibles-Goldman1994/blob/master/ConvertibleBond_Goldman1994_Derman.ipynb,Binomial tree for American call.,Derivatives and Hedging:
+76,Hull White,https://github.com/rstreppa/valuation-callables-HullWhite/blob/master/CallableBond_HullWhite.ipynb,"Callable Bond, Hull White.",Derivatives and Hedging:
+77,Vasicek,https://github.com/RobinsonGarcia/fixed-income/blob/master/2.0%20Vasicek%20-%20example.ipynb,Bootstrapping and interpolation.,Fixed Income
+78,Binomial Tree,https://github.com/hy-lei/math-finance-exercise,Utility functions in fixed income securities.,Fixed Income
+79,Corporate Bonds,https://github.com/ishank011/gs-quantify-bond-prediction,Predicting the buying and selling volume of the corporate bonds.,Fixed Income
+80,Kiva Crowdfunding,https://github.com/CJL89/Kiva-Crowdfunding/blob/master/Kiva%20Crowdfunding.ipynb,Exploratory data analysis.,Alternative Finance
+81,Venture Capital,https://github.com/julian-chan/etothex,Insight into a new founder to make data-driven investment decisions.,Alternative Finance
+82,Venture Capital NN,https://github.com/tr7200/National-Culture-and-Venture-Capital-Monitoring,Cox-PH neural network predictions for VC/innovations finance research.,Alternative Finance
+83,Private Equity,https://github.com/TheVinhLuong102/ChicagoBooth-EntrepreneurialFinancePrivateEquity/blob/master/RightNow%20Technologies/RightNow%20Technologies.ipynb,Valuation models.,Alternative Finance
+84,VC OLS,https://github.com/fionawhitefield/venture-capital-ols/blob/master/sec_project.ipynb,VC regression.,Alternative Finance
+85,Watch Valuation,https://github.com/alporter08/Luxury-Watch-Valuation/blob/master/Luxury-Watch-Valuation.ipynb,Analysis of luxury watch data to classify whether a certain model is likely to be over-or undervalued.,Alternative Finance
+86,Art Valuation,https://github.com/ahmedhosny/theGreenCanvas/blob/gh-pages/ImageProcessing1210.ipynb,Art evaluation analytics.,Alternative Finance
+87,Blockchain,https://github.com/nud3l/dInvest,Repository for distributed autonomous investment banking.,Alternative Finance
+88,HFT,https://github.com/rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy,High frequency trading.,Extended Research:
+89,Deep Portfolio,https://github.com/DLColumbia/DL_forFinance,Deep learning for finance Predict volume of bonds.,Extended Research:
+90,Mathematical Finance,https://github.com/Auquan/Tutorials,Notebooks for math and financial tutorials.,Extended Research:
+91,NLP Finance Papers,https://github.com/chenbowen184/Research_Documents_Curation_with_NLP,Curating quantitative finance papers using machine learning.,Extended Research:
+92,Simulation,https://github.com/chenbowen184/Computational_Finance,Investigating simulations as part of computational finance.,Extended Research:
+93,Market Crash Prediction,https://github.com/sarachmax/MarketCrashes_Prediction/blob/master/LPPL_Comparasion.ipynb,Predicting market crashes using an LPPL model.,Extended Research:
+94,Commodity,https://github.com/felipessalvatore/fin2vec/blob/master/src/Commodity2BR.ipynb,Commodity influence over Brazilian stocks.,Extended Research:
+95,Finance Graph Theory,https://github.com/AvijitGhosh82/Finance_Graph_Theory,Modelling Contentedness of Firms in Financial Markets with Heterogeneous Agents.,Extended Research:
+96,Real Estate Property Fraud,https://github.com/aviroop1/Real_Estate_Property_Fraud,Unsupervised fraud detection model that can identify likely candidates of fraud.,Extended Research:
+97,Behavioural Economics,https://github.com/pcmichaud/notebooks,Behavioural Economics and Finance Python Notebooks.,Extended Research:
+98,Bayesian Finance,https://github.com/marketneutral/alphatools/blob/master/notebooks/pymc3-minimal.ipynb,Notebook PyMC3 implementation.,Extended Research:
+99,Bayesian Finance I,https://github.com/AlexIoannides/pymc-stochastic-process/blob/master/bayes_stoch_proc_calib.ipynb,Stochastic Process Calibration using Bayesian Inference & Probabilistic Programs.,Extended Research:
+100,Currency PCA,https://github.com/shanemulqueen/python-finance-pca/blob/master/FX_spots_w_PCA.ipynb,Forex spots PCA.,Extended Research:
+101,Backtests,https://github.com/AlgoTraders/stock-analysis-engine,Trading data and algorithms.,Extended Research:
+102,High Frequency,https://github.com/cswaney/prickle,A Python toolkit for high-frequency trade research.,Extended Research:
+103,Financial Economics,https://github.com/rsvp/fecon235/tree/master/nb,Financial Economics Models.,Extended Research:
+104,Critical Transitions,https://github.com/ryanholbrook/critical-transitions,Detecting critical transitions in financial networks with topological data analysis.,Extended Research:
+105,Economic Foundations,https://github.com/SeanMcOwen/FinanceAndPython.com-EconomicFoundations,Basic economic models.,Extended Research:
+106,Corporate Finance,https://github.com/SeanMcOwen/FinanceAndPython.com-CorporateFinance,Basic corporate finance.,Extended Research:
+107,Applied Corporate Finance,https://github.com/chenbowen184/Data_Science_in_Applied_Corporate_Finance,Studies the empirical behaviours in stock market.,Extended Research:
+108,M&A,https://github.com/atulram/Finance-and-Stocks,Mergers and Acquisitions.,Extended Research:
+109,Life-cycle,https://github.com/atulram/Finance-and-Stocks/blob/master/CompanyLifeCycle.ipynb,Company life cycle.,Extended Research:
+110,Computational Finance,https://github.com/lnsongxf/Applied_Computational_Economics_and_Finance,Applied Computational Economics and Finance.,Extended Research:
+111,Liquidity and Momentum,https://github.com/mrefermat/quant_finance,Various factors and portfolio constructions.,Extended Research:
+112,Mathematical Finance,https://github.com/yadongli/nyumath2048,NYU Math-GA 2048: Scientific Computing in Finance.,Courses
+113,Algo Trading,https://github.com/JCreeks/Machine-Learning-in-Finance/tree/master/0_Intro_to_Algo_Trading,Intro to algo trading.,Courses
+114,Python for Finance,https://github.com/siaen/python_finance_course,CEU python for finance course material.,Courses
+115,Handson Python for Finance,https://github.com/PacktPublishing/Hands-on-Python-for-Finance,Hands-on Python for Finance published by Packt.,Courses
+116,Machine Learning for Trading,https://github.com/stefan-jansen/machine-learning-for-trading,"Notebooks, resources and references accompanying the book Machine Learning for Algorithmic Trading.",Courses
+117,ML Specialisation,https://github.com/Ahmed0028/Machine-Learning-and-Reinforcement-Learning-in-Finance-Specialization,Machine Learning in Finance.,Courses
+118,Risk Management,https://github.com/andrey-lukyanov/Risk-Management,Finance risk engagement course resources.,Courses
+119,Basic Investments,https://github.com/SeanMcOwen/FinanceAndPython.com-Investments,Basic investment tools in python.,Courses
+120,Basic Derivatives,https://github.com/SeanMcOwen/FinanceAndPython.com-Derivatives,Basic forward contracts and hedging.,Courses
+121,Basic Finance,https://github.com/SeanMcOwen/FinanceAndPython.com-BasicFinance,Source code notebooks basic finance applications.,Courses
+122,Capital Markets Data,https://www.capitalmarketsdata.com/,,Data
+123,Employee Count SEC Filings,https://github.com/healthgradient/sec_employee_information_extraction,,Data
+124,SEC Parsing,https://github.com/healthgradient/sec-doc-info-extraction/blob/master/classify_sections_containing_relevant_information.ipynb,,Data
+125,Open Edgar,https://github.com/LexPredict/openedgar,,Data
+126,EDGAR,https://github.com/TiesdeKok/UW_Python_Camp/blob/master/Materials/Session_5/EDGAR_walkthrough.ipynb,,Data
+127,IRS,http://social-metrics.org/sox/,,Data
+128,Rating Industries,http://www.ratingshistory.info/,,Data
+129,Web Scraping (FirmAI),FirmAI,,Data
+130,Financial Corporate,http://raw.rutgers.edu/Corporate%20Financial%20Data.html,,Data
+131,Non-financial Corporate,http://raw.rutgers.edu/Non-Financial%20Corporate%20Data.html,,Data
+132,http://finance.yahoo.com/,http://finance.yahoo.com/,,Data
+133,https://fred.stlouisfed.org/,https://fred.stlouisfed.org/,,Data
+134,https://stooq.com,https://stooq.com,,Data
+135,https://github.com/timestocome/StockMarketData,https://github.com/timestocome/StockMarketData,,Data
+136,Financial Event Prediction using Machine Learning,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3481555,,Personal Papers
+137,Machine Learning in Asset Management—Part 1: Portfolio Construction—Trading Strategies,https://jfds.pm-research.com/content/2/1/10,,Personal Papers
+138,Machine Learning in Asset Management—Part 2: Portfolio Construction—Weight Optimization,https://jfds.pm-research.com/content/2/2/17,,Personal Papers
+139,Machine Learning in Asset Management,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3420952,,Personal Papers
+140,NYU FRE,https://engineering.nyu.edu/academics/departments/finance-and-risk-engineering,Finance and Risk Engineering (NYU Tandon),"Colleges, Centers and Departments"
+141,Cornell University,https://www.cornell.edu/,,"Colleges, Centers and Departments"
+142,NYU Courant,https://cims.nyu.edu/,"Courant Institute of Mathematical Sciences, New York University","Colleges, Centers and Departments"
+143,Oxford Man,https://www.oxford-man.ox.ac.uk/,Oxford-Man Institute of Quantitative Finance,"Colleges, Centers and Departments"
+144,Stanford Advanced Financial Technologies,https://fintech.stanford.edu/,Stanford Advanced Financial Technologies Laboratory,"Colleges, Centers and Departments"
+145,Berkeley Lab CIFT,https://cs.lbl.gov/news-media/news/news-archive/2010/berkeley-lab-launches-new-center-for-innovative-financial-technology/,,"Colleges, Centers and Departments"
