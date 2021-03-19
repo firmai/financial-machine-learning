@@ -195,5 +195,5 @@ If you want to contribute to this list (please do), send me a pull request or co
 - [NYU Courant](https://cims.nyu.edu/) - Courant Institute of Mathematical Sciences, New York University
 - [Oxford Man](https://www.oxford-man.ox.ac.uk/) - Oxford-Man Institute of Quantitative Finance
 - [Stanford Advanced Financial Technologies](https://fintech.stanford.edu/) - Stanford Advanced Financial Technologies Laboratory
-- Berkley CIFT
+- [Berkeley Lab CIFT](https://cs.lbl.gov/news-media/news/news-archive/2010/berkeley-lab-launches-new-center-for-innovative-financial-technology/)
 
