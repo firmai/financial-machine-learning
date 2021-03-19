@@ -2,16 +2,40 @@ import os
 from conf import PROJECT_ROOT_DIR
 import re
 import pandas as pd
+from github import Github
 
 
-@DeprecationWarning
+def get_repo_status():
+    github_token = os.environ.get('GITHUB_TOKEN')
+    g = Github(github_token)
+    repo_df = pd.read_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'))
+
+    for idx, row in repo_df.iterrows():
+        url = row['url']
+        if 'https://github.com/' in url:
+            print('processing [{}]'.format(url))
+            url_query = url.replace('https://github.com/', '')
+            url_format = '/'.join(url_query.split('/')[:2])
+            try:
+                repo = g.get_repo(url_format)
+                repo_df.loc[idx, 'last_update'] = repo.updated_at
+                repo_df.loc[idx, 'star_count'] = repo.stargazers_count
+                repo_df.loc[idx, 'fork_count'] = repo.forks_count
+                repo_df.loc[idx, 'contributors_count'] = repo.get_contributors().totalCount
+            except Exception as ex:
+                print(ex)
+                repo_df.loc[idx, 'last_update'] = None
+    repo_df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
+
+
+# @DeprecationWarning
 def parse_readme_md():
     """
 
     :return:
     usage:
     >>> df = parse_readme_md()
-    >>> df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'))
+    >>> df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
     """
     file_path = os.path.join(PROJECT_ROOT_DIR, 'README.md')
     with open(file_path) as f:
@@ -42,6 +66,7 @@ def parse_readme_md():
                         title_str = None
                         if title is not None:
                             title_str = title.group(1)
+                            title_and_link = title_and_link.replace('[{}]'.format(title_str), '')
                         m_link = re.search(r'\((.*?)\)', title_and_link)
                         link_str = None
                         if m_link is not None:
