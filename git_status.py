@@ -6,7 +6,7 @@ from github import Github
 
 
 def get_repo_status():
-    github_token = os.environ.get('GITHUB_TOKEN')
+    github_token = os.environ.get('GIT_TOKEN')
     g = Github(github_token)
     repo_df = pd.read_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'))
 
@@ -18,6 +18,7 @@ def get_repo_status():
             url_format = '/'.join(url_query.split('/')[:2])
             try:
                 repo = g.get_repo(url_format)
+                repo_df.loc[idx, 'created_at'] = repo.created_at
                 repo_df.loc[idx, 'last_update'] = repo.updated_at
                 repo_df.loc[idx, 'star_count'] = repo.stargazers_count
                 repo_df.loc[idx, 'fork_count'] = repo.forks_count
@@ -28,7 +29,7 @@ def get_repo_status():
     repo_df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
 
 
-# @DeprecationWarning
+@DeprecationWarning
 def parse_readme_md():
     """
 
@@ -79,3 +80,7 @@ def parse_readme_md():
                 all_df_list.append(parsed_df)
     final_df = pd.concat(all_df_list).reset_index(drop=True)
     return final_df
+
+
+if __name__ == '__main__':
+    get_repo_status()
