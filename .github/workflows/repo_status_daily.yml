@@ -33,14 +33,7 @@ jobs:
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
-      - name: Commit files
-          run: |
-            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git commit -m "Update repo status" -a
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Commit & Push changes
+        uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GIT_TOKEN }}
-          branch: ${{ github.ref }}
