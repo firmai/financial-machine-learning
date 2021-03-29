@@ -1,0 +1,46 @@
+name: Super-Linter
+
+# cron every day at 12 am
+on:
+  schedule:
+    - cron: '0 0 * * *' #
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+  update-repo-status:
+    # Name the Job
+    name: Update repo status for all saved repo
+    # Set the type of machine to run on
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: execute py script # run the run.py to get the latest data
+        run: |
+          python git_status.py
+        env:
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+
+      - name: Commit files
+          run: |
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git commit -m "Update repo status" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GIT_TOKEN }}
+          branch: ${{ github.ref }}
