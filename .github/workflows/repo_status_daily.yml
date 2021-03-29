@@ -1,4 +1,4 @@
-name: Super-Linter
+name: Repo-Updater
 
 # cron every day at 12 am
 on:
