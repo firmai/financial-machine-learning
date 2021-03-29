@@ -1,3 +1,5 @@
+![repo_update](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_status_daily.yml/badge.svg)
+
 # Financial Machine Learning and Data Science
 
 **Please contact me to take over and revamp this repo (it gets around 100k views and 650k clicks per year), I don't have time to update or maintain it - message 15/03/2021**
