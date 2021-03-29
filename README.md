@@ -1,8 +1,15 @@
 ![repo_update](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_status_daily.yml/badge.svg)
 
 # Financial Machine Learning and Data Science
+**This repo is officially under revamp as of 3/29/2021!!**
 
-**Please contact me to take over and revamp this repo (it gets around 100k views and 650k clicks per year), I don't have time to update or maintain it - message 15/03/2021**
+***TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang)***
+___
+Updated Repo Information including the creation date/last update date/number of stars etc can be found [here](https://github.com/firmai/financial-machine-learning/blob/master/raw_data/url_list.csv) <br>
+Repo list is updated nightly and status is shown on the badge
+___
+
+<del>Please contact me to take over and revamp this repo (it gets around 100k views and 650k clicks per year), I don't have time to update or maintain it - message 15/03/2021</del>
 
 
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
