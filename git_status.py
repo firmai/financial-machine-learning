@@ -2,7 +2,17 @@ import os
 from conf import PROJECT_ROOT_DIR
 import re
 import pandas as pd
-from github import Github
+from github import Github, Repository
+
+
+def get_last_commit_date(input_repo: Repository):
+    """
+    get latest commit from repo
+    :param input_repo:
+    :return:
+    """
+    page = input_repo.get_commits().get_page(0)[0]
+    return page.commit.author.date
 
 
 def get_repo_status():
@@ -19,6 +29,7 @@ def get_repo_status():
             try:
                 repo = g.get_repo(url_format)
                 repo_df.loc[idx, 'created_at'] = repo.created_at
+                repo_df.loc[idx, 'last_commit'] = get_last_commit_date(repo)
                 repo_df.loc[idx, 'last_update'] = repo.updated_at
                 repo_df.loc[idx, 'star_count'] = repo.stargazers_count
                 repo_df.loc[idx, 'fork_count'] = repo.forks_count
