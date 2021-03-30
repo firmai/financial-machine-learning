@@ -1,4 +1,5 @@
 ![repo_update](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_status_daily.yml/badge.svg)
+[![Gitter](https://badges.gitter.im/financial-machine-learning/community.svg)](https://gitter.im/financial-machine-learning/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Financial Machine Learning and Data Science
 **This repo is officially under revamp as of 3/29/2021!!**
