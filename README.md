@@ -12,9 +12,6 @@ Updated Repo Information including the creation date/last update date/number of 
 Repo list is updated nightly and status is shown on the badge
 ___
 
-<del>Please contact me to take over and revamp this repo (it gets around 100k views and 650k clicks per year), I don't have time to update or maintain it - message 15/03/2021</del>
-
-
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
 
 A listed repository should be deprecated if:
