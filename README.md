@@ -4,7 +4,9 @@
 # Financial Machine Learning and Data Science
 **This repo is officially under revamp as of 3/29/2021!!**
 
-***TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang)***
+***TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang) <br>
+Or join us in the gitter chat [here](https://gitter.im/financial-machine-learning/community) 
+***
 ___
 Updated Repo Information including the creation date/last update date/number of stars etc can be found [here](https://github.com/firmai/financial-machine-learning/blob/master/raw_data/url_list.csv) <br>
 Repo list is updated nightly and status is shown on the badge
