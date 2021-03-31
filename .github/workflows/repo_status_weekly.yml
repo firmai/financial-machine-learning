@@ -33,7 +33,18 @@ jobs:
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
+      - name: execute py script # run the run.py to get the latest data
+        run: |
+          python wiki_gen.py
+
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GIT_TOKEN }}
+
+      - name: Upload Documentation to Wiki
+        uses: SwiftDocOrg/github-wiki-publish-action@v1
+        with:
+          path: "generated_wiki"
+        env:
+          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
