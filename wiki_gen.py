@@ -3,7 +3,6 @@ import os
 import pandas as pd
 
 
-@DeprecationWarning
 def generate_wiki_per_category(output_path):
     """
 
@@ -21,7 +20,8 @@ def generate_wiki_per_category(output_path):
             'comment': category_df['comment'],
             'created_at': category_df['created_at'],
             'last_commit': category_df['last_commit'],
-            'star_count': category_df['star_count']
+            'star_count': category_df['star_count'],
+
         })
         output_path_full = os.path.join(output_path, '{}.md'.format(category))
         with open(output_path_full, 'w') as f:

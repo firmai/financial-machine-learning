@@ -2,15 +2,6 @@
 [![Gitter](https://badges.gitter.im/financial-machine-learning/community.svg)](https://gitter.im/financial-machine-learning/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Financial Machine Learning and Data Science
-**This repo is officially under revamp as of 3/29/2021!!**
-
-***TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang) <br>
-Or join us in the gitter chat [here](https://gitter.im/financial-machine-learning/community) 
-***
-___
-Updated Repo Information including the creation date/last update date/number of stars etc can be found [here](https://github.com/firmai/financial-machine-learning/blob/master/raw_data/url_list.csv) <br>
-Repo list is updated nightly and status is shown on the badge
-___
 
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
 
@@ -18,6 +9,16 @@ A listed repository should be deprecated if:
 
 - Repository's owner explicitly say that "this library is not maintained".
 - Not committed for long time (2~3 years).
+
+**This repo is officially under revamp as of 3/29/2021!!**
+
+***TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang) or join us in the gitter chat [here](https://gitter.im/financial-machine-learning/community) 
+***
+___
+Updated Repo Information including the creation date/last update date/number of stars etc can be found [here](https://github.com/firmai/financial-machine-learning/blob/master/raw_data/url_list.csv) <br>
+Repo list is updated weekly and status is shown on the badge
+___
+
 # Trading
 ## Deep Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Deep-Learning))
 - [Deep Learning](https://github.com/keon/deepstock) - Technical experimentations to beat the stock market using deep learning.

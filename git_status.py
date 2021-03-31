@@ -7,10 +7,23 @@ import pandas as pd
 from github import Github, Repository
 
 
+def get_github_client():
+    # search for app_client and client secrets first, since this allow higher api request limit
+    github_app = os.environ.get('GIT_APP_ID')
+    if github_app is None:
+        github_token = os.environ.get('GIT_TOKEN')
+        g = Github(github_token)
+    else:
+        github_app_secret = os.environ.get('GIT_APP_SECRET')
+        g = Github(
+            client_id=github_app,
+            client_secret=github_app_secret)
+    return g
+
+
 # generic search functions
 def search_repo(search_term: str, qualifier_dict: Dict):
-    github_token = os.environ.get('GIT_TOKEN')
-    g = Github(github_token)
+    g = get_github_client()
     qualifier_str = ' '.join(['{}:{}'.format(k, v) for k, v in iter(qualifier_dict.items())])
     if qualifier_str != '':
         final_search_term = '{} {}'.format(search_term, qualifier_str)
@@ -155,8 +168,7 @@ def get_repo_attributes_dict(input_repo: Repository, last_commit_within_years: i
 
 
 def get_repo_status():
-    github_token = os.environ.get('GIT_TOKEN')
-    g = Github(github_token)
+    g = get_github_client()
     repo_df = get_repo_list()
     for idx, row in repo_df.iterrows():
         repo_path = row['repo_path']
