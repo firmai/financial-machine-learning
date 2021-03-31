@@ -1,8 +1,123 @@
 import os
+from typing import Dict
+
 from conf import PROJECT_ROOT_DIR
 import re
 import pandas as pd
 from github import Github, Repository
+
+
+# generic search functions
+def search_repo(search_term: str, qualifier_dict: Dict):
+    github_token = os.environ.get('GIT_TOKEN')
+    g = Github(github_token)
+    qualifier_str = ' '.join(['{}:{}'.format(k, v) for k, v in iter(qualifier_dict.items())])
+    if qualifier_str != '':
+        final_search_term = '{} {}'.format(search_term, qualifier_str)
+    else:
+        final_search_term = search_term
+    print(final_search_term)
+    repo_result = g.search_repositories(final_search_term)
+    return repo_result
+
+
+def search_repo_simple(search_term: str = None,
+                       min_stars_number: int = None,
+                       created_at: str = None,
+                       pushed_date: str = None
+                       ):
+    """
+
+    :param search_term:
+    :param min_stars_number:
+    :param created_at:
+    :param pushed_date:
+    usage:
+    >>> search_term = '(deep learning) AND trading'
+    >>> min_stars_number = 100
+    >>> created_at = None
+    >>> pushed_date = None
+    """
+    if search_term is None:
+        _search_term = ''
+    else:
+        _search_term = search_term
+
+    qualifier_dict = {}
+    if min_stars_number is not None:
+        qualifier_dict['stars'] = '>={}'.format(min_stars_number)
+
+    if created_at is not None:
+        qualifier_dict['created'] = '>={}'.format(created_at)
+
+    if pushed_date is not None:
+        qualifier_dict['pushed'] = '>={}'.format(pushed_date)
+    search_result = search_repo(_search_term, qualifier_dict)
+    return search_result
+
+
+# *******
+# topic specific search functions
+# *******
+def convert_repo_list_to_df(repo_list, category):
+    df_list = []
+    for repo in repo_list:
+        attr_dict = get_repo_attributes_dict(repo)
+        attr_dict['name'] = repo.name
+        attr_dict['comment'] = 'NEW'
+        attr_dict['category'] = category
+        attr_dict['repo_path'] = repo.full_name
+        attr_dict['url'] = 'https://github.com/{}'.format(repo.full_name)
+        df_list.append(attr_dict)
+    result_df = pd.DataFrame(df_list)
+    return result_df
+
+
+def search_new_repo_and_append(min_stars_number: int = 100):
+    repo_df = get_repo_list()
+    category_list = repo_df['category'].unique().tolist()
+    new_repo_list = []
+    for category in category_list:
+        if category == 'Deep Learning':
+            # github not yet support OR operator, issue here
+            # https://github.com/isaacs/github/issues/660
+            # hence run the search terms twice and combine
+            search_term = 'deep learning trading'
+            repo_list = search_repo_simple(search_term, min_stars_number)
+            top_df = convert_repo_list_to_df(repo_list, category)
+            search_term = 'deep learning finance'
+            repo_list = search_repo_simple(search_term, min_stars_number)
+            bottom_df = convert_repo_list_to_df(repo_list, category)
+            combined_df = pd.concat([top_df, bottom_df]).reset_index(drop=True)
+
+            # only find ones that need to be inserted
+            combined_df = combined_df[~combined_df['repo_path'].str.lower().isin(repo_df['repo_path'].str.lower())]
+            new_repo_list.append(combined_df)
+    new_repo_df = pd.concat(new_repo_list).reset_index(drop=True)
+    final_df = pd.concat([repo_df.drop('repo_path', axis=1), new_repo_df.drop('repo_path', axis=1)]).reset_index(
+        drop=True)
+    final_df = final_df.sort_values(by='category')
+    final_df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
+
+
+# *******
+# saved repo list, treat it as database for now
+# *******
+def get_repo_list():
+    repo_df = pd.read_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'))
+    repo_df['repo_path'] = repo_df['url'].apply(get_repo_path)
+    return repo_df
+
+
+# *******
+# repo specific information
+# *******
+def get_repo_path(in_url):
+    repo_path = None
+    if 'https://github.com/' in in_url:
+        url_query = in_url.replace('https://github.com/', '')
+        repo_path = '/'.join(url_query.split('/')[:2])
+    return repo_path
 
 
 def get_last_commit_date(input_repo: Repository):
@@ -15,28 +130,36 @@ def get_last_commit_date(input_repo: Repository):
     return page.commit.author.date
 
 
+def get_repo_attributes_dict(input_repo: Repository):
+    result_dict = {
+        'created_at': input_repo.created_at,
+        'last_commit': get_last_commit_date(input_repo),
+        'last_update': input_repo.updated_at,
+        'star_count': input_repo.stargazers_count,
+        'fork_count': input_repo.forks_count,
+        'contributors_count': input_repo.get_contributors().totalCount
+
+    }
+    return result_dict
+
+
 def get_repo_status():
     github_token = os.environ.get('GIT_TOKEN')
     g = Github(github_token)
-    repo_df = pd.read_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'))
-
+    repo_df = get_repo_list()
     for idx, row in repo_df.iterrows():
-        url = row['url']
-        if 'https://github.com/' in url:
-            print('processing [{}]'.format(url))
-            url_query = url.replace('https://github.com/', '')
-            url_format = '/'.join(url_query.split('/')[:2])
+        repo_path = row['repo_path']
+        if repo_path is not None:
             try:
-                repo = g.get_repo(url_format)
-                repo_df.loc[idx, 'created_at'] = repo.created_at
-                repo_df.loc[idx, 'last_commit'] = get_last_commit_date(repo)
-                repo_df.loc[idx, 'last_update'] = repo.updated_at
-                repo_df.loc[idx, 'star_count'] = repo.stargazers_count
-                repo_df.loc[idx, 'fork_count'] = repo.forks_count
-                repo_df.loc[idx, 'contributors_count'] = repo.get_contributors().totalCount
+                print('processing [{}]'.format(repo_path))
+                repo = g.get_repo(repo_path)
+                repo_attr_dict = get_repo_attributes_dict(repo)
             except Exception as ex:
                 print(ex)
-                repo_df.loc[idx, 'last_update'] = None
+                repo_attr_dict = {}
+
+            for k, v in iter(repo_attr_dict.items()):
+                repo_df.loc[idx, k] = v
     repo_df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
 
 
@@ -95,3 +218,4 @@ def parse_readme_md():
 
 if __name__ == '__main__':
     get_repo_status()
+    search_new_repo_and_append(min_stars_number=100)
