@@ -16,7 +16,6 @@ def search_repo(search_term: str, qualifier_dict: Dict):
         final_search_term = '{} {}'.format(search_term, qualifier_str)
     else:
         final_search_term = search_term
-    print(final_search_term)
     repo_result = g.search_repositories(final_search_term)
     return repo_result
 
