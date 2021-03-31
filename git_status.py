@@ -1,6 +1,6 @@
 import os
 from typing import Dict
-
+import datetime
 from conf import PROJECT_ROOT_DIR
 import re
 import pandas as pd
@@ -88,13 +88,12 @@ def search_new_repo_and_append(min_stars_number: int = 100):
             repo_list = search_repo_simple(search_term, min_stars_number)
             bottom_df = convert_repo_list_to_df(repo_list, category)
             combined_df = pd.concat([top_df, bottom_df]).reset_index(drop=True)
-
+            combined_df = combined_df.drop_duplicates()
             # only find ones that need to be inserted
             combined_df = combined_df[~combined_df['repo_path'].str.lower().isin(repo_df['repo_path'].str.lower())]
             new_repo_list.append(combined_df)
     new_repo_df = pd.concat(new_repo_list).reset_index(drop=True)
-    final_df = pd.concat([repo_df.drop('repo_path', axis=1), new_repo_df.drop('repo_path', axis=1)]).reset_index(
-        drop=True)
+    final_df = pd.concat([repo_df, new_repo_df]).reset_index(drop=True)
     final_df = final_df.sort_values(by='category')
     final_df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
 
@@ -104,7 +103,8 @@ def search_new_repo_and_append(min_stars_number: int = 100):
 # *******
 def get_repo_list():
     repo_df = pd.read_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'))
-    repo_df['repo_path'] = repo_df['url'].apply(get_repo_path)
+    if 'repo_path' not in repo_df.columns:
+        repo_df['repo_path'] = repo_df['url'].apply(get_repo_path)
     return repo_df
 
 
@@ -129,8 +129,9 @@ def get_last_commit_date(input_repo: Repository):
     return page.commit.author.date
 
 
-def get_repo_attributes_dict(input_repo: Repository):
+def get_repo_attributes_dict(input_repo: Repository, last_commit_within_years: int = 2):
     result_dict = {
+        'repo_path': input_repo.full_name,
         'created_at': input_repo.created_at,
         'last_commit': get_last_commit_date(input_repo),
         'last_update': input_repo.updated_at,
@@ -139,6 +140,17 @@ def get_repo_attributes_dict(input_repo: Repository):
         'contributors_count': input_repo.get_contributors().totalCount
 
     }
+    today = datetime.datetime.today()
+    check_start_date = datetime.datetime(today.year - last_commit_within_years,
+                                         today.month,
+                                         today.day)
+
+    if result_dict['last_commit'] >= check_start_date:
+        repo_status = 'active'
+    else:
+        repo_status = 'inactive'
+    result_dict['repo_status'] = repo_status
+
     return result_dict
 
 
