@@ -104,6 +104,7 @@ def search_new_repo_and_append(min_stars_number: int = 100):
             combined_df = combined_df.drop_duplicates()
             # only find ones that need to be inserted
             combined_df = combined_df[~combined_df['repo_path'].str.lower().isin(repo_df['repo_path'].str.lower())]
+            combined_df['finml_added_date'] = datetime.datetime.now()
             new_repo_list.append(combined_df)
     new_repo_df = pd.concat(new_repo_list).reset_index(drop=True)
     final_df = pd.concat([repo_df, new_repo_df]).reset_index(drop=True)
