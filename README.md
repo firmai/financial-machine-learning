@@ -21,7 +21,7 @@ Repo list is updated weekly and status is shown on the badge
 ___
 
 # Trading
-## Deep Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Deep-Learning))
+## Deep Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/deep_learning))
 - [Deep Learning](https://github.com/keon/deepstock) - Technical experimentations to beat the stock market using deep learning.
 - [Deep Learning II](https://github.com/LiamConnell/deep-algotrading/tree/master/notebooks) - Tensorflow Regression.
 - [Deep Learning III](https://github.com/Rachnog/Deep-Trading) - Algorithmic trading with deep learning experiments.
@@ -33,7 +33,7 @@ ___
 - [AI Trading](https://github.com/borisbanushev/stockpredictionai/blob/master/readme2.md) - AI to predict stock market movements.
 
 
-## Reinforcement Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Reinforcement-Learning))
+## Reinforcement Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/reinforcement_learning))
 - [RL Trading](https://colab.research.google.com/drive/1FzLCI0AO3c7A4bp9Fi01UwXeoc7BN8sW) - A collection of 25+ Reinforcement Learning Trading Strategies - Google Colab. 
 - [RL](https://github.com/kh-kim/stock_market_reinforcement_learning) - OpenGym with Deep Q-learning and Policy Gradient.
 - [RL II](https://github.com/deependersingla/deep_trader) - reinforcement learning on stock market and agent tries to learn trading.
@@ -42,7 +42,7 @@ ___
 - [RL V](https://github.com/gstenger98/rl-finance) - Building an Agent to Trade with Reinforcement Learning.
 - [Pair Trading RL](https://github.com/shenyichen105/Deep-Reinforcement-Learning-in-Stock-Trading) - Using deep actor-critic model to learn best strategies in pair trading.
 
-## Other Models ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Other-Models))
+## Other Models ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/other_models))
 - [Mixture  Models I](https://github.com/BlackArbsCEO/Mixture_Models) - Mixture models to predict market bottoms. 
 - [Mixture Models II](https://github.com/BlackArbsCEO/mixture_model_trading_public)  - Mixture models and stock trading.
 - [Scikit-learn Stock Prediction](https://github.com/robertmartin8/MachineLearningStocks)  - Using python and scikit-learn to make stock predictions.
@@ -51,13 +51,13 @@ ___
 - [Trend Following](http://inseaddataanalytics.github.io/INSEADAnalytics/ExerciseSet2.html) - A futures trend following portfolio investment strategy.
 
 
-## Data Processing Techniques and Transformations ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Data-Processing-Techniques-and-Transformations))
+## Data Processing Techniques and Transformations ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/data_processing_techniques_and_transformations))
 - [Advanced ML](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises) - Exercises too Financial Machine Learning (De Prado). 
 - [Advanced ML II](https://github.com/hudson-and-thames/research) - More implementations of Financial Machine Learning (De Prado). 
 
 
 # Portfolio Management
-## Portfolio Selection and Optimisation ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Portfolio-Selection-and-Optimisation))
+## Portfolio Selection and Optimisation ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/portfolio_selection_and_optimisation))
 - [Distribution Characteristic Optimisation](https://github.com/VivekPa/OptimalPortfolio) - Extends classical portfolio optimisation to take the skewness and kurtosis of the distribution of market invariants into account.
 - [Reinforcement Learning](https://github.com/filangel/qtrader) - Reinforcement Learning for Portfolio Management.
 - [Efficient Frontier](https://github.com/tthustla/efficient_frontier/blob/master/Efficient%20_Frontier_implementation.ipynb) - Modern Portfolio Theory.
@@ -70,7 +70,7 @@ ___
 - [Modern Portfolio Theory](https://nbviewer.jupyter.org/github/Marigold/universal-portfolios/blob/master/modern-portfolio-theory.ipynb) - Universal portfolios; modern portfolio theory. 
 - [DeepDow](https://github.com/jankrepl/deepdow) - Portfolio optimization with deep learning.
 
-## Factor and Risk Analysis ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Factor-and-Risk-Analysis))
+## Factor and Risk Analysis ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/factor_and_risk_analysis))
 - [Various Risk Measures](https://github.com/Jorgencr/Alternative-and-Responsible-Investments/blob/master/Final_masterfile.ipynb) -  Risk measures and factors for alternative and responsible investments. 
 - [Pyfolio](https://github.com/quantopian/pyfolio) -  Portfolio and risk analytics in Python.
 - [Risk Basic](https://github.com/RJT1990/Active-Portfolio-Management-Notes/blob/master/Chapter%203%2C%20Risk.ipynb) - Active portfolio risk management .
@@ -89,7 +89,7 @@ ___
 
 
 # Techniques
-## Unsupervised ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Unsupervised))
+## Unsupervised ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/unsupervised))
 - [PCA Pairs Trading](https://github.com/joelQF/quant-finance/tree/master/Artificial_IntelIigence_for_Trading) - PCA, Factor Returns, and trading strategies. 
 - [Fund Clusters](https://github.com/frechfrechfrech/Mutual-Fund-Market-Clusters/blob/master/Initial%20Data%20Exploration.ipynb) - Data exploration of fund clusters.
 - [VRA Stock Embedding](https://github.com/ml-hongkong/stock2vec) - Variational Reccurrent Autoencoder for Embedding stocks to vectors based on the price history.
@@ -98,7 +98,7 @@ ___
 - [Industry Clustering](https://github.com/SeanMcOwen/FinanceAndPython.com-ClusteringIndustries) - Project to cluster industries according to financial attributes.
 
 
-## Textual ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Textual))
+## Textual ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/textual))
 - [NLP](https://github.com/toamitesh/NLPinFinance) - This project assembles a lot of NLP operations needed for finance domain.
 - [Earning call transcripts](https://github.com/lin882/WebAnalyticsProject) - Correlation between mutual fund investment decision and earning call transcripts. 
 - [Buzzwords](https://github.com/swap9047/Cutting-Edge-Technologies-Effect-on-S-P500-Companies-Performance-and-Mutual-Funds) - Return performance and mutual fund selection.
@@ -111,7 +111,7 @@ ___
 
 
 # Other Assets
-## Derivatives and Hedging ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Derivatives-and-Hedging))
+## Derivatives and Hedging ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/derivatives_and_hedging))
 - [Options](https://github.com/QuantConnect/Tutorials/tree/master/06%20Introduction%20to%20Options%5B%5D) - Introduction to options. 
 - [Derivative Markets](https://github.com/broughtj/Fin6470/tree/master/Notebooks)  - The economics of futures, futures, options, and swaps.
 - [Black Scholes](https://github.com/irajwani/numerical_methods_python/blob/master/black_scholes.ipynb) - Options pricing. 
@@ -126,12 +126,12 @@ ___
 - [Derman](https://github.com/rstreppa/valuation-convertibles-Goldman1994/blob/master/ConvertibleBond_Goldman1994_Derman.ipynb) - Binomial tree for American call.
 - [Hull White](https://github.com/rstreppa/valuation-callables-HullWhite/blob/master/CallableBond_HullWhite.ipynb) - Callable Bond, Hull White. 
 
-## Fixed Income ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Fixed-Income))
+## Fixed Income ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/fixed_income))
 - [Vasicek](https://github.com/RobinsonGarcia/fixed-income/blob/master/2.0%20Vasicek%20-%20example.ipynb) - Bootstrapping and interpolation. 
 - [Binomial Tree](https://github.com/hy-lei/math-finance-exercise) - Utility functions in fixed income securities.
 - [Corporate Bonds](https://github.com/ishank011/gs-quantify-bond-prediction) - Predicting the buying and selling volume of the corporate bonds.
 
-## Alternative Finance ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Alternative-Finance))
+## Alternative Finance ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/alternative_finance))
 - [Kiva Crowdfunding](https://github.com/CJL89/Kiva-Crowdfunding/blob/master/Kiva%20Crowdfunding.ipynb) - Exploratory data analysis.  
 - [Venture Capital](https://github.com/julian-chan/etothex) -  Insight into a new founder to make data-driven investment decisions.
 - [Venture Capital NN](https://github.com/tr7200/National-Culture-and-Venture-Capital-Monitoring) -  Cox-PH neural network predictions for VC/innovations finance research.
@@ -141,7 +141,7 @@ ___
 - [Art Valuation](https://github.com/ahmedhosny/theGreenCanvas/blob/gh-pages/ImageProcessing1210.ipynb) - Art evaluation analytics.
 - [Blockchain](https://github.com/nud3l/dInvest) - Repository for distributed autonomous investment banking.
 
-# Extended Research ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Extended-Research))
+# Extended Research ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/extended_research))
 - [HFT](https://github.com/rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy) - High frequency trading.
 - [Deep Portfolio](https://github.com/DLColumbia/DL_forFinance) - Deep learning for finance Predict volume of bonds.
 - [Mathematical Finance](https://github.com/Auquan/Tutorials) - Notebooks for math and financial tutorials.
@@ -168,7 +168,7 @@ ___
 - [Liquidity and Momentum](https://github.com/mrefermat/quant_finance) - Various factors and portfolio constructions. 
 
 
-# Courses ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Courses))
+# Courses ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/courses))
 - [Mathematical Finance](https://github.com/yadongli/nyumath2048) - NYU Math-GA 2048: Scientific Computing in Finance.
 - [Algo Trading](https://github.com/JCreeks/Machine-Learning-in-Finance/tree/master/0_Intro_to_Algo_Trading) - Intro to algo trading. 
 - [Python for Finance](https://github.com/siaen/python_finance_course) - CEU python for finance course material.
@@ -181,7 +181,7 @@ ___
 - [Basic Finance](https://github.com/SeanMcOwen/FinanceAndPython.com-BasicFinance) - Source code notebooks basic finance applications.
 
 
-# Data ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Data))
+# Data ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/data))
 - [Capital Markets Data](https://www.capitalmarketsdata.com/) (and [chartpack](https://1drv.ms/b/s!AjyO2n0JmhakhJIy-jZXLsLGxOw38Q?e=uOuPKY))
 - [Employee Count SEC Filings](https://github.com/healthgradient/sec_employee_information_extraction)
 - [SEC Parsing](https://github.com/healthgradient/sec-doc-info-extraction/blob/master/classify_sections_containing_relevant_information.ipynb)
@@ -198,7 +198,7 @@ ___
 - [https://github.com/timestocome/StockMarketData](https://github.com/timestocome/StockMarketData)
 
 
-# Colleges, Centers and Departments ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/Colleges-Centers-and-Departments))
+# Colleges, Centers and Departments ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/colleges_centers_and_departments))
 - [NYU FRE](https://engineering.nyu.edu/academics/departments/finance-and-risk-engineering) - Finance and Risk Engineering (NYU Tandon)
 - [Cornell University](https://www.cornell.edu/)
 - [NYU Courant](https://cims.nyu.edu/) - Courant Institute of Mathematical Sciences, New York University
