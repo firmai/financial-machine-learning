@@ -35,3 +35,8 @@ jobs:
           path: "generated_wiki"
         env:
           GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
+
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GIT_TOKEN }}
