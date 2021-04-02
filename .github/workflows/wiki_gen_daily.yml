@@ -1,9 +1,7 @@
-name: Repo-Updater
+name: Wiki-Generator
 
-# cron every sunday at 12 am, due to github api limits, change this to be ran once a week
-on:
-  schedule:
-    - cron: '0 0 * * 0' #
+# generate wiki page on every push
+on: push
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -29,11 +27,11 @@ jobs:
 
       - name: execute py script # run the run.py to get the latest data
         run: |
-          python git_status.py
-        env:
-          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+          python wiki_gen.py
 
-      - name: Commit & Push changes
-        uses: actions-js/push@master
+      - name: Upload Documentation to Wiki
+        uses: SwiftDocOrg/github-wiki-publish-action@v1
         with:
-          github_token: ${{ secrets.GIT_TOKEN }}
+          path: "generated_wiki"
+        env:
+          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}

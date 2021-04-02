@@ -8,9 +8,9 @@ from git_status import get_repo_list
 
 def get_wiki_status_color(input_text):
     if input_text is None or input_text == 'inactive':
-        result_text = "![inactive](https://placehold.it/15/FF0000/000000?text=+)"
+        result_text = ":heavy_multiplication_x:"
     else:
-        result_text = "![active](https://placehold.it/15/00FF00/000000?text=+)"
+        result_text = ":heavy_check_mark:"
     return '<sub>{}</sub>'.format(result_text)
 
 
