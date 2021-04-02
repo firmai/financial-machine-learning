@@ -46,6 +46,7 @@ def generate_wiki_per_category(output_path):
         # add color for the status
         formatted_df['repo_status'] = formatted_df['repo_status'].apply(lambda x: get_wiki_status_color(x))
         formatted_df['rating'] = formatted_df['rating'].apply(lambda x: get_wiki_rating(x))
+        formatted_df.columns = ['<sub>{}</sub>'.format(x) for x in formatted_df.columns]
 
         clean_category_name = category.lower().replace(' ', '_')
         output_path_full = os.path.join(output_path, '{}.md'.format(clean_category_name))
