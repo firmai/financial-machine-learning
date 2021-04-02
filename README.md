@@ -19,8 +19,8 @@ A listed repository should be deprecated if:
 
 ___
 
-- All repo's status including last commit date is updated weekly
-- 10 Highest ranked repos/links for each section are displayed on main README.md Full list is available within the wiki page
+- All repos/links status including last commit date is updated weekly
+- 10 Highest ranked repos/links for each section are displayed on main README.md and full list is available within the wiki page
 - Both Wikis/README.md is updated in realtime as soon as new information are pushed to the repo 
 ___
 
