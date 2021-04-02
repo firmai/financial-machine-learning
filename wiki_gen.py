@@ -68,17 +68,9 @@ def generate_wiki_per_category(output_path, update_readme: bool = True):
             # only display top 5, then expandable for extra 5
             with open(os.path.join(PROJECT_ROOT_DIR, 'README.md'), 'w') as f:
 
-                table_str = formatted_df.iloc[:5].to_markdown(index=False)
-                collapsible_str = """
-                <details>
-                <summary>next 5</summary>
-                
-                {}
-                </details>
-                """.format(formatted_df.iloc[5:10].to_markdown(index=False))
-
+                table_str = formatted_df.iloc[:10].to_markdown(index=False)
                 new_str = "<!-- [PLACEHOLDER_START:{clean_category_name}] --> \n"
-                new_str += table_str + collapsible_str
+                new_str += table_str
                 new_str += "<!-- [PLACEHOLDER_END:{clean_category_name}] --> \n"
 
                 search_start = re.escape('<!-- [PLACEHOLDER_START:{}] -->'.format(clean_category_name))
