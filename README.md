@@ -13,11 +13,15 @@ A listed repository should be deprecated if:
 
 **This repo is officially under revamp as of 3/29/2021!!**
 
-***TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang) or join us in the gitter chat [here](https://gitter.im/financial-machine-learning/community) 
-***
+- TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) 
+- If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang) 
+- Join us in the gitter chat [here](https://gitter.im/financial-machine-learning/community) 
+
 ___
-Updated Repo Information including the creation date/last update date/number of stars etc can be found [here](https://github.com/firmai/financial-machine-learning/blob/master/raw_data/url_list.csv) <br>
-Repo list is updated weekly and status is shown on the badge
+
+- All repo's status including last commit date is updated weekly
+- 10 Highest ranked repos/links for each section are displayed on main README.md Full list is available within the wiki page
+- Both Wikis/README.md is updated in realtime as soon as new information are pushed to the repo 
 ___
 
 # Trading
