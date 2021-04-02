@@ -69,9 +69,9 @@ def generate_wiki_per_category(output_path, update_readme: bool = True):
             with open(os.path.join(PROJECT_ROOT_DIR, 'README.md'), 'w') as f:
                 table_str = formatted_df.iloc[:5].to_markdown(index=False)
                 collapsible_str = """
-                
                 <details>
-                <summary><sub>next 5</sub></summary>
+                <summary>next 5</summary>
+                
                 {}
                 </details>
                 """.format(formatted_df.iloc[5:10].to_markdown(index=False))
