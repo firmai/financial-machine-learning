@@ -21,9 +21,7 @@ Repo list is updated weekly and status is shown on the badge
 ___
 
 # Trading
-<details><summary>## Deep Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/deep_learning))</summary>
-<p>
-
+## Deep Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/deep_learning))
 - [Deep Learning](https://github.com/keon/deepstock) - Technical experimentations to beat the stock market using deep learning.
 - [Deep Learning II](https://github.com/LiamConnell/deep-algotrading/tree/master/notebooks) - Tensorflow Regression.
 - [Deep Learning III](https://github.com/Rachnog/Deep-Trading) - Algorithmic trading with deep learning experiments.
@@ -33,11 +31,6 @@ ___
 - [ARIMA-LTSM Hybrid](https://github.com/imhgchoi/Corr_Prediction_ARIMA_LSTM_Hybrid) - Hybrid model to predict future price correlation coefficients of two assets.
 - [Neural Network](https://github.com/VivekPa/IntroNeuralNetworks) -  Neural networks to predict stock prices.
 - [AI Trading](https://github.com/borisbanushev/stockpredictionai/blob/master/readme2.md) - AI to predict stock market movements.
-
-
-</p>
-</details>
-
 
 
 ## Reinforcement Learning ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/reinforcement_learning))
