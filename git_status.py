@@ -1,5 +1,5 @@
 import os
-from typing import Dict
+from typing import Dict, List
 import datetime
 from conf import PROJECT_ROOT_DIR
 import re
@@ -33,6 +33,43 @@ def search_repo(search_term: str, qualifier_dict: Dict):
     return repo_result
 
 
+def search_repo_multiple_terms(term_list: List[str],
+                               category: str,
+                               min_stars_number: int = None,
+                               created_at: str = None,
+                               pushed_date: str = None,
+                               drop_duplicate: bool = True
+                               ):
+    """
+
+    :param term_list:
+    :param category:
+    :param min_stars_number:
+    :param created_at:
+    :param pushed_date:
+    :param drop_duplicate:
+    :return:
+    usage:
+    >>> term_list = ['deep learning trading', 'deep learning finance', 'reinforcement learning trading',
+    'reinforcement learning finance']
+    >>> category = 'Deep Learning And Reinforcement Learning'
+    >>> min_stars_number = 100
+    >>> created_at = None
+    >>> pushed_date = None
+    >>> drop_duplicate = True
+    """
+    repo_df_list = []
+    for search_term in term_list:
+        repo_list = search_repo_simple(search_term, min_stars_number, created_at=created_at, pushed_date=pushed_date)
+        repo_df = convert_repo_list_to_df(repo_list, category)
+        repo_df_list.append(repo_df)
+    combined_df = pd.concat(repo_df_list).reset_index(drop=True)
+    if drop_duplicate:
+        combined_df = combined_df.drop_duplicates()
+    combined_df['finml_added_date'] = datetime.datetime.now()
+    return combined_df
+
+
 def search_repo_simple(search_term: str = None,
                        min_stars_number: int = None,
                        created_at: str = None,
@@ -45,7 +82,7 @@ def search_repo_simple(search_term: str = None,
     :param created_at:
     :param pushed_date:
     usage:
-    >>> search_term = '(deep learning) AND trading'
+    >>> search_term = 'machine learning trading'
     >>> min_stars_number = 100
     >>> created_at = None
     >>> pushed_date = None
@@ -85,27 +122,41 @@ def convert_repo_list_to_df(repo_list, category):
     return result_df
 
 
-def search_new_repo_and_append(min_stars_number: int = 100):
+def search_new_repo_by_category(category: str,
+                                min_stars_number: int = 100,
+                                existing_repo_df: pd.DataFrame = None):
+    combined_df = None
+    if category == 'Deep Learning And Reinforcement Learning':
+        combined_df = search_repo_multiple_terms(['deep learning trading',
+                                                  'deep learning finance',
+                                                  'reinforcement learning trading',
+                                                  'reinforcement learning finance'],
+                                                 category,
+                                                 min_stars_number=min_stars_number
+                                                 )
+        # only find ones that need to be inserted
+        if existing_repo_df is not None:
+            combined_df = combined_df[
+                ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].str.lower())]
+
+    return combined_df
+
+
+def search_new_repo_and_append(min_stars_number: int = 100, filter_list=None):
+    """
+
+    :param min_stars_number:
+    :param filter_list:
+    """
     repo_df = get_repo_list()
     category_list = repo_df['category'].unique().tolist()
+    if filter_list is not None:
+        category_list = [x for x in category_list if x in filter_list]
+
     new_repo_list = []
     for category in category_list:
-        if category == 'Deep Learning':
-            # github not yet support OR operator, issue here
-            # https://github.com/isaacs/github/issues/660
-            # hence run the search terms twice and combine
-            search_term = 'deep learning trading'
-            repo_list = search_repo_simple(search_term, min_stars_number)
-            top_df = convert_repo_list_to_df(repo_list, category)
-            search_term = 'deep learning finance'
-            repo_list = search_repo_simple(search_term, min_stars_number)
-            bottom_df = convert_repo_list_to_df(repo_list, category)
-            combined_df = pd.concat([top_df, bottom_df]).reset_index(drop=True)
-            combined_df = combined_df.drop_duplicates()
-            # only find ones that need to be inserted
-            combined_df = combined_df[~combined_df['repo_path'].str.lower().isin(repo_df['repo_path'].str.lower())]
-            combined_df['finml_added_date'] = datetime.datetime.now()
-            new_repo_list.append(combined_df)
+        combined_df = search_new_repo_by_category(category, min_stars_number, repo_df)
+        new_repo_list.append(combined_df)
     new_repo_df = pd.concat(new_repo_list).reset_index(drop=True)
     final_df = pd.concat([repo_df, new_repo_df]).reset_index(drop=True)
     final_df = final_df.sort_values(by='category')
