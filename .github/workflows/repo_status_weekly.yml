@@ -3,7 +3,7 @@ name: Repo-Updater
 # cron every sunday at 12 am, due to github api limits, change this to be ran once a week
 on:
   schedule:
-    - cron: '0 0 * * 0' #
+    - cron: '0 * * * *' # do every hour for now
 
 jobs:
   # Set the job key. The key is displayed as the job name

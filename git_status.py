@@ -134,10 +134,18 @@ def search_new_repo_by_category(category: str,
                                                  category,
                                                  min_stars_number=min_stars_number
                                                  )
-        # only find ones that need to be inserted
-        if existing_repo_df is not None:
-            combined_df = combined_df[
-                ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].str.lower())]
+
+    elif category == 'Other Models':
+        combined_df = search_repo_multiple_terms(['machine learning trading',
+                                                  'machine learning finance'],
+                                                 category,
+                                                 min_stars_number=min_stars_number
+                                                 )
+
+    # only find ones that need to be inserted
+    if existing_repo_df is not None:
+        combined_df = combined_df[
+            ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].str.lower())]
 
     return combined_df
 
@@ -158,7 +166,11 @@ def search_new_repo_and_append(min_stars_number: int = 100, filter_list=None):
         combined_df = search_new_repo_by_category(category, min_stars_number, repo_df)
         new_repo_list.append(combined_df)
     new_repo_df = pd.concat(new_repo_list).reset_index(drop=True)
+    # drop duplicate regardless of the category, keep first one for now
+    new_repo_df = new_repo_df.drop_duplicates(subset='repo_path')
+
     final_df = pd.concat([repo_df, new_repo_df]).reset_index(drop=True)
+
     final_df = final_df.sort_values(by='category')
     final_df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
 
