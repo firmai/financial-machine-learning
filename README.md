@@ -41,6 +41,7 @@ ___
 | <sub>[awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading)</sub>                                                                                                                                        | <sub>curated list of papers/repos on topics like CNN/LSTM/GAN/Reinforcement Learning etc. Categorized as deep learning for now but there are other topics here. Manually maintained by cbailes</sub>                                                                                                                                                                                                                                                                                            | <sub>11/26/18 3:23</sub>  | <sub>1/1/21 9:41</sub>    | <sub>541.0</sub>        | <sub>:heavy_check_mark:</sub>       | <sub>:star:x4</sub> |<!-- [PLACEHOLDER_END:deep_learning_and_reinforcement_learning] --> 
  
  
+ 
 
 
 ## Other Models ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/other_models))
@@ -55,6 +56,7 @@ ___
 | <sub>[Mixture Models II](https://github.com/BlackArbsCEO/mixture_model_trading_public)</sub>         | <sub>Mixture models and stock trading.</sub>                               | <sub>12/11/17 17:05</sub> | <sub>5/13/20 23:50</sub> | <sub>166.0</sub>        | <sub>:heavy_check_mark:</sub>       | <sub></sub>         |<!-- [PLACEHOLDER_END:other_models] --> 
  
  
+ 
 
 
 ## Data Processing Techniques and Transformations ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/data_processing_techniques_and_transformations))
@@ -63,6 +65,7 @@ ___
 |:-------------------------------------------------------------------------------|:--------------------------------------------------------------------------|:-------------------------|:-------------------------|:------------------------|:------------------------------|:--------------------|
 | <sub>[Advanced ML II](https://github.com/hudson-and-thames/research)</sub>     | <sub>More implementations of Financial Machine Learning (De Prado).</sub> | <sub>nan</sub>           | <sub>nan</sub>           | <sub>nan</sub>          | <sub>:heavy_check_mark:</sub> | <sub></sub>         |
 | <sub>[Advanced ML](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)</sub> | <sub>Exercises too Financial Machine Learning (De Prado).</sub>           | <sub>4/25/18 17:22</sub> | <sub>1/16/20 17:25</sub> | <sub>964.0</sub>        | <sub>:heavy_check_mark:</sub> | <sub></sub>         |<!-- [PLACEHOLDER_END:data_processing_techniques_and_transformations] --> 
+ 
  
  
 
