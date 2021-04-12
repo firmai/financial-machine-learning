@@ -164,7 +164,7 @@ def search_new_repo_by_category(category: str,
     elif category == 'Portfolio Selection and Optimisation':
         combined_df = search_repo_multiple_terms(['portfolio optimization machine learning finance',
                                                   'portfolio optimization machine learning trading',
-                                                  'portfolio construction machine learning finance'
+                                                  'portfolio construction machine learning finance',
                                                   'portfolio construction machine learning trading',
                                                   'portfolio optimization finance',
                                                   'portfolio optimization trading'],
@@ -174,7 +174,7 @@ def search_new_repo_by_category(category: str,
     elif category == 'Factor and Risk Analysis':
         combined_df = search_repo_multiple_terms(['risk factor finance',
                                                   'risk factor trading',
-                                                  'risk premia factor finance'
+                                                  'risk premia factor finance',
                                                   'risk premia factor trading',
                                                   'style factor finance',
                                                   'style factor trading',
@@ -187,6 +187,7 @@ def search_new_repo_by_category(category: str,
 
     # only find ones that need to be inserted
     if combined_df is not None and existing_repo_df is not None:
+        print(combined_df)
         combined_df = combined_df[
             ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].dropna().str.lower())]
 
@@ -349,5 +350,5 @@ def parse_readme_md():
 
 
 if __name__ == '__main__':
-    get_repo_status()
+    # get_repo_status()
     search_new_repo_and_append(min_stars_number=100)
