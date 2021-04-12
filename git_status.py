@@ -125,6 +125,17 @@ def convert_repo_list_to_df(repo_list, category):
 def search_new_repo_by_category(category: str,
                                 min_stars_number: int = 100,
                                 existing_repo_df: pd.DataFrame = None):
+    """
+
+    :param category:
+    :param min_stars_number:
+    :param existing_repo_df:
+    :return:
+    usage:
+    >>> category = 'Other Models'
+    >>> min_stars_number = 100
+    >>> existing_repo_df = get_repo_list()
+    """
     combined_df = None
     if category == 'Deep Learning And Reinforcement Learning':
         combined_df = search_repo_multiple_terms(['deep learning trading',
@@ -145,7 +156,7 @@ def search_new_repo_by_category(category: str,
     # only find ones that need to be inserted
     if existing_repo_df is not None:
         combined_df = combined_df[
-            ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].str.lower())]
+            ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].dropna().str.lower())]
 
     return combined_df
 
