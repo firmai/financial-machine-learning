@@ -154,6 +154,36 @@ def search_new_repo_by_category(category: str,
                                                  category,
                                                  min_stars_number=min_stars_number
                                                  )
+    elif category == 'Data Processing Techniques and Transformations':
+        combined_df = search_repo_multiple_terms(['data transformation trading',
+                                                  'data transformation finance',
+                                                  'data transformation time series'],
+                                                 category,
+                                                 min_stars_number=min_stars_number
+                                                 )
+    elif category == 'Portfolio Selection and Optimisation':
+        combined_df = search_repo_multiple_terms(['portfolio optimization machine learning finance',
+                                                  'portfolio optimization machine learning trading',
+                                                  'portfolio construction machine learning finance'
+                                                  'portfolio construction machine learning trading',
+                                                  'portfolio optimization finance',
+                                                  'portfolio optimization trading'],
+                                                 category,
+                                                 min_stars_number=min_stars_number
+                                                 )
+    elif category == 'Factor and Risk Analysis':
+        combined_df = search_repo_multiple_terms(['risk factor finance',
+                                                  'risk factor trading',
+                                                  'risk premia factor finance'
+                                                  'risk premia factor trading',
+                                                  'style factor finance',
+                                                  'style factor trading',
+                                                  'macro factor finance',
+                                                  'macro factor trading'
+                                                  ],
+                                                 category,
+                                                 min_stars_number=min_stars_number
+                                                 )
 
     # only find ones that need to be inserted
     if combined_df is not None and existing_repo_df is not None:
