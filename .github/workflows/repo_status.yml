@@ -1,7 +1,9 @@
-name: Wiki-Generator
+name: Repo-Updater
 
-# generate wiki page on every push
-on: push
+on:
+  schedule:
+    - cron: '0 0 * * *' # daily
+
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -30,17 +32,6 @@ jobs:
           python git_status.py
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
-
-      - name: execute py script # run the wiki_gen
-        run: |
-          python wiki_gen.py
-
-      - name: Upload Documentation to Wiki
-        uses: SwiftDocOrg/github-wiki-publish-action@v1
-        with:
-          path: "generated_wiki"
-        env:
-          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
 
       - name: Commit & Push changes
         uses: actions-js/push@master
