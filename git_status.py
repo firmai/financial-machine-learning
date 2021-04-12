@@ -156,7 +156,7 @@ def search_new_repo_by_category(category: str,
                                                  )
 
     # only find ones that need to be inserted
-    if existing_repo_df is not None:
+    if combined_df is not None and existing_repo_df is not None:
         combined_df = combined_df[
             ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].dropna().str.lower())]
 
@@ -177,7 +177,8 @@ def search_new_repo_and_append(min_stars_number: int = 100, filter_list=None):
     new_repo_list = []
     for category in category_list:
         combined_df = search_new_repo_by_category(category, min_stars_number, repo_df)
-        new_repo_list.append(combined_df)
+        if combined_df is not None:
+            new_repo_list.append(combined_df)
     new_repo_df = pd.concat(new_repo_list).reset_index(drop=True)
     # drop duplicate regardless of the category, keep first one for now
     new_repo_df = new_repo_df.drop_duplicates(subset='repo_path')
