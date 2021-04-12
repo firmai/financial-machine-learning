@@ -155,6 +155,7 @@ def search_new_repo_by_category(category: str,
 
     # only find ones that need to be inserted
     if existing_repo_df is not None:
+        print(combined_df)
         combined_df = combined_df[
             ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].dropna().str.lower())]
 
@@ -247,10 +248,11 @@ def get_repo_status():
     repo_df = get_repo_list()
     for idx, row in repo_df.iterrows():
         repo_path = row['repo_path']
-        if repo_path is not None:
+        if not pd.isna(repo_path):
             try:
                 print('processing [{}]'.format(repo_path))
                 repo = g.get_repo(repo_path)
+
                 repo_attr_dict = get_repo_attributes_dict(repo)
             except Exception as ex:
                 print(ex)
