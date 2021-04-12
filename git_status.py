@@ -319,5 +319,5 @@ def parse_readme_md():
 
 
 if __name__ == '__main__':
-    # get_repo_status()
+    get_repo_status()
     search_new_repo_and_append(min_stars_number=100)

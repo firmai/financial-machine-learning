@@ -27,6 +27,12 @@ jobs:
 
       - name: execute py script # run the run.py to get the latest data
         run: |
+          python git_status.py
+        env:
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+
+      - name: execute py script # run the wiki_gen
+        run: |
           python wiki_gen.py
 
       - name: Upload Documentation to Wiki
