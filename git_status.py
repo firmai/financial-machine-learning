@@ -64,6 +64,8 @@ def search_repo_multiple_terms(term_list: List[str],
         repo_df = convert_repo_list_to_df(repo_list, category)
         repo_df_list.append(repo_df)
     combined_df = pd.concat(repo_df_list).reset_index(drop=True)
+    print('search_repo_multiple_terms')
+    print(combined_df)
     if drop_duplicate:
         combined_df = combined_df.drop_duplicates()
     combined_df['finml_added_date'] = datetime.datetime.now()
@@ -155,7 +157,6 @@ def search_new_repo_by_category(category: str,
 
     # only find ones that need to be inserted
     if existing_repo_df is not None:
-        print(combined_df)
         combined_df = combined_df[
             ~combined_df['repo_path'].str.lower().isin(existing_repo_df['repo_path'].dropna().str.lower())]
 
@@ -317,5 +318,5 @@ def parse_readme_md():
 
 
 if __name__ == '__main__':
-    get_repo_status()
+    # get_repo_status()
     search_new_repo_and_append(min_stars_number=100)
