@@ -42,6 +42,7 @@ ___
  
  
  
+ 
 
 
 ## Other Models ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/other_models))
@@ -57,6 +58,7 @@ ___
  
  
  
+ 
 
 
 ## Data Processing Techniques and Transformations ([Wiki](https://github.com/firmai/financial-machine-learning/wiki/data_processing_techniques_and_transformations))
@@ -65,6 +67,7 @@ ___
 |:-------------------------------------------------------------------------------|:--------------------------------------------------------------------------|:-------------------------|:-------------------------|:------------------------|:------------------------------|:--------------------|
 | <sub>[Advanced ML II](https://github.com/hudson-and-thames/research)</sub>     | <sub>More implementations of Financial Machine Learning (De Prado).</sub> | <sub>nan</sub>           | <sub>nan</sub>           | <sub>nan</sub>          | <sub>:heavy_check_mark:</sub> | <sub></sub>         |
 | <sub>[Advanced ML](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)</sub> | <sub>Exercises too Financial Machine Learning (De Prado).</sub>           | <sub>4/25/18 17:22</sub> | <sub>1/16/20 17:25</sub> | <sub>964.0</sub>        | <sub>:heavy_check_mark:</sub> | <sub></sub>         |<!-- [PLACEHOLDER_END:data_processing_techniques_and_transformations] --> 
+ 
  
  
  
