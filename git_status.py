@@ -161,7 +161,7 @@ def search_new_repo_by_category(category: str,
                                                   'data processing finance'
                                                   ],
                                                  category,
-                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 min_stars_number=int(min_stars_number)
                                                  )
     elif category == 'Portfolio Selection and Optimisation':
         combined_df = search_repo_multiple_terms(['portfolio optimization machine learning finance',
@@ -174,7 +174,7 @@ def search_new_repo_by_category(category: str,
                                                   'portfolio construction trading'
                                                   ],
                                                  category,
-                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 min_stars_number=int(min_stars_number)
                                                  )
     elif category == 'Factor and Risk Analysis':
         combined_df = search_repo_multiple_terms(['risk factor finance',
@@ -187,14 +187,14 @@ def search_new_repo_by_category(category: str,
                                                   'macro factor trading'
                                                   ],
                                                  category,
-                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 min_stars_number=int(min_stars_number)
                                                  )
     elif category == 'Unsupervised':
         combined_df = search_repo_multiple_terms(['unsupervised learning finance',
                                                   'unsupervised learning trading'
                                                   ],
                                                  category,
-                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 min_stars_number=int(min_stars_number)
                                                  )
     elif category == 'Textual':
         combined_df = search_repo_multiple_terms(['NLP finance',
@@ -216,7 +216,7 @@ def search_new_repo_by_category(category: str,
                                                   'delta hedge finance'
                                                   ],
                                                  category,
-                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 min_stars_number=int(min_stars_number)
                                                  )
     elif category == 'Fixed Income':
         combined_df = search_repo_multiple_terms(['corporate bond finance',
@@ -233,7 +233,7 @@ def search_new_repo_by_category(category: str,
                                                   'fixed income finance'
                                                   ],
                                                  category,
-                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 min_stars_number=int(min_stars_number)
                                                  )
     elif category == 'Alternative Finance':
         # don't include crypto here as it will skew the results, consider putting it as a seperate category
@@ -249,7 +249,7 @@ def search_new_repo_by_category(category: str,
                                                   'farmland trading'
                                                   ],
                                                  category,
-                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 min_stars_number=int(min_stars_number)
                                                  )
 
     # only find ones that need to be inserted
