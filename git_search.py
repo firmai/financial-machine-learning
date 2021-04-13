@@ -278,5 +278,23 @@ def search_new_repo_and_append(min_stars_number: int = 100, filter_list=None):
     final_df.to_csv(os.path.join(PROJECT_ROOT_DIR, 'raw_data', 'url_list.csv'), index=False)
 
 
+def search_new_repo_by_category_per_day(min_stars_number: int = 100):
+    repo_df = get_repo_list()
+    category_list = repo_df['category'].unique().tolist()
+    # based on today's date, pick which category to search to get around api limit
+    current_date = datetime.datetime.today()
+    n_category = len(category_list)
+    days_in_week = 7
+    if n_category % days_in_week == 0:
+        n_repo_to_process_per_day = int(n_category / days_in_week)
+    else:
+        n_repo_to_process_per_day = int(n_category / days_in_week) + 1
+    today_selection = current_date.weekday()
+    repo_to_process = category_list[
+                      today_selection * n_repo_to_process_per_day:(today_selection + 1) * n_repo_to_process_per_day]
+
+    search_new_repo_and_append(min_stars_number=min_stars_number, filter_list=repo_to_process)
+
+
 if __name__ == '__main__':
-    search_new_repo_and_append(min_stars_number=100)
+    search_new_repo_by_category_per_day(min_stars_number=100)

@@ -2,7 +2,7 @@ name: Repo-Search
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 1 * * *'
 
 jobs:
   # Set the job key. The key is displayed as the job name
