@@ -1,9 +1,8 @@
-name: Repo-Updater
+name: Repo-Search
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # weekly
-
+    - cron: '0 0 * * *'
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -29,7 +28,7 @@ jobs:
 
       - name: execute py script # run the run.py to get the latest data
         run: |
-          python git_status.py
+          python git_search.py
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 

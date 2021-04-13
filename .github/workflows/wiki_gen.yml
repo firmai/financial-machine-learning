@@ -25,11 +25,11 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-#      - name: execute status update script # run the run.py to get the latest data
-#        run: |
-#          python git_status.py
-#        env:
-#          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+      - name: execute status update script # run the run.py to get the latest data
+        run: |
+          python git_search.py
+        env:
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
 
       - name: execute wiki generation script # run the wiki_gen
         run: |
