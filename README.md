@@ -1,5 +1,6 @@
 [![Repo-Updater](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_status.yml/badge.svg)](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_status.yml)
 [![Wiki-Generator](https://github.com/firmai/financial-machine-learning/actions/workflows/wiki_gen.yml/badge.svg)](https://github.com/firmai/financial-machine-learning/actions/workflows/wiki_gen.yml)
+[![Repo-Search](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml/badge.svg)](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml)
 [![Gitter](https://badges.gitter.im/financial-machine-learning/community.svg)](https://gitter.im/financial-machine-learning/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Financial Machine Learning and Data Science
