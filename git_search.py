@@ -243,6 +243,57 @@ def search_new_repo_by_category(category: str,
                                                  category,
                                                  min_stars_number=int(min_stars_number * 0.5)
                                                  )
+    elif category == 'Extended Research':
+        combined_df = search_repo_multiple_terms(['fraud detection',
+                                                  'behavioural finance',
+                                                  'corporate finance',
+                                                  'financial economics',
+                                                  'mathematical finance',
+                                                  'liquidity finance',
+                                                  'fx trading',
+                                                  'company life cycle',
+                                                  'merger and acquisition',
+                                                  'farmland trading',
+                                                  'HFT',
+                                                  'high frequency trading'
+                                                  ],
+                                                 category,
+                                                 min_stars_number=int(min_stars_number * 0.5)
+                                                 )
+    elif category == 'Courses':
+        combined_df = search_repo_multiple_terms(['finance courses',
+                                                  'machine learning courses',
+                                                  'quantitative finance courses',
+                                                  'time series courses',
+                                                  'data science courses',
+                                                  'financial engineering courses'
+                                                  ],
+                                                 category,
+                                                 min_stars_number=min_stars_number * 2
+                                                 )
+    elif category == 'Data':
+        combined_df = search_repo_multiple_terms(['financial data',
+                                                  'time series data',
+                                                  'company fundamental data',
+                                                  'crypto data',
+                                                  'earnings data',
+                                                  'fixed income data',
+                                                  'fx data',
+                                                  'etf data',
+                                                  'finance database',
+                                                  'sec edgar',
+                                                  'economic data',
+                                                  'investment data',
+                                                  'fund data',
+                                                  'options data',
+                                                  'financial index data',
+                                                  'futures data',
+                                                  'cryptocurrencies data',
+                                                  'money market data'
+                                                  ],
+                                                 category,
+                                                 min_stars_number=min_stars_number
+                                                 )
 
     # only find ones that need to be inserted
     if combined_df is not None and not combined_df.empty and existing_repo_df is not None:
