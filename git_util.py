@@ -61,7 +61,7 @@ def get_repo_attributes_dict(input_repo: Repository, last_commit_within_years: i
         else:
             repo_status = 'inactive'
         result_dict['repo_status'] = repo_status
-    except GithubException as e:
+    except Exception as e:
         print(e)
 
     return result_dict

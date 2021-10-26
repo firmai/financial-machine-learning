@@ -348,5 +348,5 @@ def search_new_repo_by_category_per_day(min_stars_number: int = 100):
     search_new_repo_and_append(min_stars_number=min_stars_number, filter_list=repo_to_process)
 
 
-if __name__ == '__main__':
-    search_new_repo_by_category_per_day(min_stars_number=100)
+# if __name__ == '__main__':
+#     search_new_repo_by_category_per_day(min_stars_number=100)
