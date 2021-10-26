@@ -1,4 +1,4 @@
-from github import Github, Repository
+from github import Github, Repository, GithubException
 import os
 import datetime
 
@@ -39,25 +39,29 @@ def get_last_commit_date(input_repo: Repository):
 
 
 def get_repo_attributes_dict(input_repo: Repository, last_commit_within_years: int = 2):
-    result_dict = {
-        'repo_path': input_repo.full_name,
-        'created_at': input_repo.created_at,
-        'last_commit': get_last_commit_date(input_repo),
-        'last_update': input_repo.updated_at,
-        'star_count': input_repo.stargazers_count,
-        'fork_count': input_repo.forks_count,
-        'contributors_count': input_repo.get_contributors().totalCount
+    result_dict = {}
+    try:
+        result_dict = {
+            'repo_path': input_repo.full_name,
+            'created_at': input_repo.created_at,
+            'last_commit': get_last_commit_date(input_repo),
+            'last_update': input_repo.updated_at,
+            'star_count': input_repo.stargazers_count,
+            'fork_count': input_repo.forks_count,
+            'contributors_count': input_repo.get_contributors().totalCount
 
-    }
-    today = datetime.datetime.today()
-    check_start_date = datetime.datetime(today.year - last_commit_within_years,
-                                         today.month,
-                                         today.day)
+        }
+        today = datetime.datetime.today()
+        check_start_date = datetime.datetime(today.year - last_commit_within_years,
+                                             today.month,
+                                             today.day)
 
-    if result_dict['last_commit'] >= check_start_date:
-        repo_status = 'active'
-    else:
-        repo_status = 'inactive'
-    result_dict['repo_status'] = repo_status
+        if result_dict['last_commit'] >= check_start_date:
+            repo_status = 'active'
+        else:
+            repo_status = 'inactive'
+        result_dict['repo_status'] = repo_status
+    except GithubException as e:
+        print(e)
 
     return result_dict

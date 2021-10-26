@@ -12,6 +12,7 @@ from git_util import get_github_client, get_repo_attributes_dict
 def convert_repo_list_to_df(repo_list, category):
     df_list = []
     for repo in repo_list:
+        print(repo)
         attr_dict = get_repo_attributes_dict(repo)
         attr_dict['name'] = repo.name
         attr_dict['comment'] = 'NEW'
