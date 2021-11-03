@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: setup python
         uses: actions/setup-python@v2
@@ -42,11 +44,11 @@ jobs:
         env:
           GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
 
-      - name: Check out master first
-        uses: actions/checkout@master
-        with:
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+#      - name: Check out master first
+#        uses: actions/checkout@master
+#        with:
+#          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+#          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
 
       - name: Commit & Push changes
         uses: actions-js/push@master
