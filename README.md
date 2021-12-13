@@ -3,6 +3,17 @@
 [![Repo-Search](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml/badge.svg)](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml)
 [![Gitter](https://badges.gitter.im/financial-machine-learning/community.svg)](https://gitter.im/financial-machine-learning/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+# Future of the Community
+Two things:
+1. We have decided to start a [slack](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ) group.
+2. And a lot of the effort have spilled over to https://www.ml-quant.com/ see a screenshot of the website below
+
+![image](https://user-images.githubusercontent.com/26666267/145840123-bc077dd0-0980-439a-824b-9c09a5f779de.png)
+
+
+
+
+
 # Financial Machine Learning and Data Science
 
 A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
