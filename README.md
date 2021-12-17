@@ -5,8 +5,7 @@
 
 # Future of the Community
 ## Two things:
-1. We have decided to start a [Slack](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ) group. ([invite](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ))
-2. And a lot of the effort have spilled over to [ML-Quant](https://www.ml-quant.com/) see a screenshot of the website below. ([invite](https://www.ml-quant.com/))
+1. We have decided to start a [Slack](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ) group. ([invite](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ)) & a website [ML-Quant](https://www.ml-quant.com/) see a screenshot of the website below. ([invite](https://www.ml-quant.com/))
 
 ![image](https://user-images.githubusercontent.com/26666267/145840123-bc077dd0-0980-439a-824b-9c09a5f779de.png)
 
