@@ -20,17 +20,11 @@ Publication will either be in industry journals, open source software journals, 
 
 ### 🔍 Research and Project Opportunities
 
-We offer a wide range of projects that cater to various interests and expertise within machine learning and finance. Some of the exciting areas you could explore include:
+We offer a wide range of projects that cater to various interests and expertise within machine learning and finance. Some of the exciting recent projects include:
 
 - **Predictive Modeling with GitHub Logs:** Develop models to predict market trends and investment opportunities using GitHub activity and developer data.
-- **Alternative Data Analysis:** Explore non-traditional data sources such as social media sentiment, satellite imagery, or web traffic to enhance financial forecasting.
+- **Satallite Data Analysis:** Explore non-traditional data sources such as social media sentiment, satellite imagery, or web traffic to enhance financial forecasting.
 - **Data Imputation Techniques:** Investigate new methods for handling missing or incomplete data to improve the robustness and accuracy of our models.
-- **Time Series Forecasting:** Create models to accurately predict financial time series data, aiding in better investment strategies.
-- **Anomaly Detection in Financial Transactions:** Build systems to identify unusual patterns that could indicate fraud or other irregular activities.
-- **Portfolio Optimization using Machine Learning:** Apply machine learning techniques to optimize asset allocation and maximize returns.
-- **Natural Language Processing for Financial Reports:** Extract meaningful insights from financial documents and news articles to inform investment decisions.
-- **Sentiment Analysis on Market News:** Analyze sentiment from news sources to gauge market sentiment and its impact on stock prices.
-- **Reinforcement Learning for Trading Strategies:** Develop adaptive trading strategies using reinforcement learning to maximize investment returns.
 
 ### 🌐 Why Join Sov.ai?
 
@@ -46,26 +40,12 @@ If you’re excited about leveraging your expertise in machine learning and fina
 
 Join us in shaping the future of investment insights and making a meaningful impact in the world of finance!
 
----
-
-### 📢 Visit Us
-
-- **Website:** [sov.ai](https://sov.ai)
-- **Slack Community:** [Join our Slack](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ)
-- **GitHub Repository:** [Explore our GitHub](https://github.com/your-repo-link)
-
----
-
-Feel free to customize any sections further to better match your branding and specific needs. Let me know if you need additional adjustments!
-
 
 
 ## Two things:
-1. We have decided to start a [Slack](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ) group ([invite](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ)) & a website [ML-Quant](https://www.ml-quant.com/) see a screenshot of the website below. https://www.ml-quant.com/
+1. The newsletter now has a dedicated website [ML-Quant](https://www.ml-quant.com/) see a screenshot of the website below. https://www.ml-quant.com/
 
 ![image](https://user-images.githubusercontent.com/26666267/145840123-bc077dd0-0980-439a-824b-9c09a5f779de.png)
-
-
 
 
 
