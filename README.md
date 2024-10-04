@@ -14,7 +14,7 @@ I’m seeking to collaborate with motivated, independent PhD graduates or doctor
 
 Sov.ai is at the forefront of integrating advanced machine learning techniques with financial data analysis to revolutionize investment strategies. We are working with 3 of the top 10 quantitative hedge funds, and with many mid-sized and boutique firms. 
 
-Our platform leverages diverse data sources and innovative algorithms to deliver actionable insights that drive smarter investment decisions. By joining Sov.ai, you'll be part of a dynamic team dedicated to pushing the boundaries of what's possible in finance through technology. Please get in touch! d.snow@sov.ai.
+Our platform leverages diverse data sources and innovative algorithms to deliver actionable insights that drive smarter investment decisions. By joining Sov.ai, you'll be part of a dynamic team dedicated to pushing the boundaries of what's possible in finance through technology. Before expressing your interest, please be aware that the research will be predominantly challenging and experimental in nature.
 
 
 ### 🔍 Research and Project Opportunities
