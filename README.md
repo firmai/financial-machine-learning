@@ -7,7 +7,9 @@
 
 ## 🌟 We Are Growing!
 
-I’m seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! Please visit [docs.sov.ai](docs.sov.ai) for more information of past projects.
+I’m seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! 
+
+Please visit [docs.sov.ai](docs.sov.ai) for more information of past projects.
 
 ### 🚀 About Sov.ai
 
