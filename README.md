@@ -27,7 +27,7 @@ We offer a wide range of projects that cater to various interests and expertise 
 - **Satallite Data Analysis:** Explore non-traditional data sources such as social media sentiment, satellite imagery, or web traffic to enhance financial forecasting.
 - **Data Imputation Techniques:** Investigate new methods for handling missing or incomplete data to improve the robustness and accuracy of our models.
 
-- Please visit [docs.sov.ai](docs.sov.ai) for more information on public projects that have made it into the subscription product. 
+- Please visit [docs.sov.ai](https://docs.sov.ai) for more information on public projects that have made it into the subscription product. 
 
 ### 🌐 Why Join Sov.ai?
 
