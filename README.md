@@ -13,9 +13,9 @@ Please visit [docs.sov.ai](docs.sov.ai) for more information of past projects.
 
 ### 🚀 About Sov.ai
 
-Sov.ai is at the forefront of integrating advanced machine learning techniques with financial data analysis to revolutionize investment strategies. We are working with 3 of the top 10 quantitative hedge funds, and with many mid-sized and boutique firms. Our platform leverages diverse data sources and innovative algorithms to deliver actionable insights that drive smarter investment decisions. By joining Sov.ai, you'll be part of a dynamic team dedicated to pushing the boundaries of what's possible in finance through technology. We're seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! d.snow@sov.ai.
+Sov.ai is at the forefront of integrating advanced machine learning techniques with financial data analysis to revolutionize investment strategies. We are working with 3 of the top 10 quantitative hedge funds, and with many mid-sized and boutique firms. 
 
-Publication will either be in industry journals, open source software journals, or as conference papers. If you are a strong performing masters student, feel free to also present a project to me. 
+Our platform leverages diverse data sources and innovative algorithms to deliver actionable insights that drive smarter investment decisions. By joining Sov.ai, you'll be part of a dynamic team dedicated to pushing the boundaries of what's possible in finance through technology. Please get in touch! d.snow@sov.ai.
 
 
 ### 🔍 Research and Project Opportunities
