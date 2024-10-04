@@ -48,7 +48,7 @@ Join us in shaping the future of investment insights and making a meaningful imp
 
 
 
-## So what is [ML-Quant.com](https://ml-quant.com)?:
+## So what is [ML-Quant.com](https://ml-quant.com) then?
 
 
 It is our firehose of daily research, serving as an internal knowledge base and client resource while also acting as a marketing channel to showcase our expertise and attract potential clients in the machine learning and quantitative finance space.
