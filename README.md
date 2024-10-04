@@ -7,7 +7,7 @@
 
 ## 🌟 We Are Growing!
 
-I’m seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! This could be in colaboration with a university or as independent study. 
+We're seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! This could be in colaboration with a university or as independent study. 
 
 ![image](https://github.com/user-attachments/assets/da97663a-b63f-4286-94cc-fcd168905109)
 
