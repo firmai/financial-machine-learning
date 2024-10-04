@@ -36,7 +36,7 @@ Please visit [docs.sov.ai](https://docs.sov.ai) for more information on public p
 - **Innovative Environment:** Engage with the latest technologies and methodologies in machine learning and finance.
 - **Collaborative Team:** Work alongside a team of experts passionate about driving innovation in investment insights.
 - **Flexible Projects:** Tailor your research to align with your interests and expertise, with the freedom to explore new ideas.
-- **Experienced Researchers:** Experts previosly from NYU, Columbia, Oxford-Man Institute, Alan Turing Institute, and Cambridge.
+- **Experienced Researchers:** Experts previously from NYU, Columbia, Oxford-Man Institute, Alan Turing Institute, and Cambridge.
 - **Post Research:** Connect with alumni that has moved on to DRW, Citadel Securities, Virtu Financial, Akuna Capital, HRT.
 
 
