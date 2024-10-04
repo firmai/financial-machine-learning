@@ -3,8 +3,6 @@
 [![Repo-Search](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml/badge.svg)](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml)
 [![Gitter](https://badges.gitter.im/financial-machine-learning/community.svg)](https://gitter.im/financial-machine-learning/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-Certainly! Below is an updated version of the "We Are Growing!" section for your README. This version provides a comprehensive overview of Sov.ai, highlights the exciting project opportunities available, and encourages motivated PhD graduates or doctoral students to get in touch for collaboration.
-
 ---
 
 ## 🌟 We Are Growing!
