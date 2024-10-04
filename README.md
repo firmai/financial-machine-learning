@@ -42,7 +42,7 @@ Please visit [docs.sov.ai](https://docs.sov.ai) for more information on public p
 
 ### 🤝 How to Apply
 
-If you’re excited about leveraging your expertise in machine learning and finance to drive impactful research and projects, we’d love to hear from you! Please reach out to us at [d.snow@sov.ai](mailto:d.snow@sov.ai) with your resume and a brief description of your research interests.
+If you’re excited about leveraging your expertise in machine learning and finance to drive impactful research and projects, we’d love to hear from you! Please reach out to us at [research@sov.ai](mailto:research@sov.ai) with your resume and a brief description of your research interests.
 
 Join us in shaping the future of investment insights and making a meaningful impact in the world of finance!
 
