@@ -7,7 +7,7 @@
 
 ## 🌟 We Are Growing!
 
-I’m seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! 
+I’m seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! This could be in colaboration with a university or as independent study. 
 
 Please visit [docs.sov.ai](docs.sov.ai) for more information of past projects.
 
@@ -31,8 +31,9 @@ We offer a wide range of projects that cater to various interests and expertise 
 - **Innovative Environment:** Engage with the latest technologies and methodologies in machine learning and finance.
 - **Collaborative Team:** Work alongside a team of experts passionate about driving innovation in investment insights.
 - **Flexible Projects:** Tailor your research to align with your interests and expertise, with the freedom to explore new ideas.
-- **Impactful Work:** Contribute to projects that have real-world applications and can significantly influence investment strategies.
-- **Growth Opportunities:** Expand your skills and knowledge in a supportive and forward-thinking environment.
+- **Experienced Researchers:** Researchers from NYU FRE, Columbia University, Oxford-Man Institute, Alan Turing Institute, and Cambridge University.
+- **Post Research:** Connect with alumni that has moved on to DRW, Citadel Securities, Virtu Financial, Akuna Capital, HRT.
+
 
 ### 🤝 How to Apply
 
