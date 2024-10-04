@@ -3,7 +3,60 @@
 [![Repo-Search](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml/badge.svg)](https://github.com/firmai/financial-machine-learning/actions/workflows/repo_search.yml)
 [![Gitter](https://badges.gitter.im/financial-machine-learning/community.svg)](https://gitter.im/financial-machine-learning/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# Future of the Community
+Certainly! Below is an updated version of the "We Are Growing!" section for your README. This version provides a comprehensive overview of Sov.ai, highlights the exciting project opportunities available, and encourages motivated PhD graduates or doctoral students to get in touch for collaboration.
+
+---
+
+## 🌟 We Are Growing!
+
+I’m seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch!
+
+### 🚀 About Sov.ai
+
+Sov.ai is at the forefront of integrating advanced machine learning techniques with financial data analysis to revolutionize investment strategies. Our platform leverages diverse data sources and innovative algorithms to deliver actionable insights that drive smarter investment decisions. By joining Sov.ai, you'll be part of a dynamic team dedicated to pushing the boundaries of what's possible in finance through technology.
+
+### 🔍 Research and Project Opportunities
+
+We offer a wide range of projects that cater to various interests and expertise within machine learning and finance. Some of the exciting areas you could explore include:
+
+- **Predictive Modeling with GitHub Logs:** Develop models to predict market trends and investment opportunities using GitHub activity and developer data.
+- **Alternative Data Analysis:** Explore non-traditional data sources such as social media sentiment, satellite imagery, or web traffic to enhance financial forecasting.
+- **Data Imputation Techniques:** Investigate new methods for handling missing or incomplete data to improve the robustness and accuracy of our models.
+- **Time Series Forecasting:** Create models to accurately predict financial time series data, aiding in better investment strategies.
+- **Anomaly Detection in Financial Transactions:** Build systems to identify unusual patterns that could indicate fraud or other irregular activities.
+- **Portfolio Optimization using Machine Learning:** Apply machine learning techniques to optimize asset allocation and maximize returns.
+- **Natural Language Processing for Financial Reports:** Extract meaningful insights from financial documents and news articles to inform investment decisions.
+- **Sentiment Analysis on Market News:** Analyze sentiment from news sources to gauge market sentiment and its impact on stock prices.
+- **Reinforcement Learning for Trading Strategies:** Develop adaptive trading strategies using reinforcement learning to maximize investment returns.
+
+### 🌐 Why Join Sov.ai?
+
+- **Innovative Environment:** Engage with the latest technologies and methodologies in machine learning and finance.
+- **Collaborative Team:** Work alongside a team of experts passionate about driving innovation in investment insights.
+- **Flexible Projects:** Tailor your research to align with your interests and expertise, with the freedom to explore new ideas.
+- **Impactful Work:** Contribute to projects that have real-world applications and can significantly influence investment strategies.
+- **Growth Opportunities:** Expand your skills and knowledge in a supportive and forward-thinking environment.
+
+### 🤝 How to Apply
+
+If you’re excited about leveraging your expertise in machine learning and finance to drive impactful research and projects, we’d love to hear from you! Please reach out to us at [d.snow@sov.ai](mailto:d.snow@sov.ai) with your resume and a brief description of your research interests.
+
+Join us in shaping the future of investment insights and making a meaningful impact in the world of finance!
+
+---
+
+### 📢 Visit Us
+
+- **Website:** [sov.ai](https://sov.ai)
+- **Slack Community:** [Join our Slack](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ)
+- **GitHub Repository:** [Explore our GitHub](https://github.com/your-repo-link)
+
+---
+
+Feel free to customize any sections further to better match your branding and specific needs. Let me know if you need additional adjustments!
+
+
+
 ## Two things:
 1. We have decided to start a [Slack](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ) group ([invite](https://join.slack.com/t/mlquant/shared_invite/zt-ztvxxxtz-8_LCEwi1Wvy4cvkVm~IcyQ)) & a website [ML-Quant](https://www.ml-quant.com/) see a screenshot of the website below. https://www.ml-quant.com/
 
@@ -15,20 +68,6 @@
 
 # Financial Machine Learning and Data Science
 
-A curated list of practical financial machine learning (FinML) tools and applications. This collection is primarily in Python. 
-
-A listed repository should be deprecated if:
-
-- Repository's owner explicitly say that "this library is not maintained".
-- Not committed for long time (2~3 years).
-
-**This repo is officially under revamp as of 3/29/2021!!**
-
-- TODOs and roadmap is under the github project [here](https://github.com/firmai/financial-machine-learning/projects/1) 
-- If you would like to contribute to this repo, please send us a pull request or contact [@dereknow](https://twitter.com/dereknow)  or [@bin-yang-algotune](https://twitter.com/b3yang) 
-- Join us in the gitter chat [here](https://gitter.im/financial-machine-learning/community) 
-
-___
 
 - All repos/links status including last commit date is updated daily
 - Only 15 Highest ranked repos/links for each section are displayed on main README.md and full list is available within the wiki page
