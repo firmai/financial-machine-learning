@@ -8,6 +8,7 @@
 ## 🌟 We Are Growing!
 
 I’m seeking to collaborate with motivated, independent PhD graduates or doctoral students on approximately seven new projects in 2024. If you’re interested in contributing to cutting-edge investment insights and data analysis, please get in touch! This could be in colaboration with a university or as independent study. 
+![image](https://github.com/user-attachments/assets/da97663a-b63f-4286-94cc-fcd168905109)
 
 
 ### 🚀 About Sov.ai
@@ -46,8 +47,12 @@ Join us in shaping the future of investment insights and making a meaningful imp
 
 
 
-## So what is [ML-Quant.com](https://ml-quant.com):
+## So what is [ML-Quant.com](https://ml-quant.com)?:
+
+
 It is our firehose of daily research, serving as an internal knowledge base and client resource while also acting as a marketing channel to showcase our expertise and attract potential clients in the machine learning and quantitative finance space.
+
+
 ![Screenshot 2024-10-04 at 08-30-53 ML-Quant - Machine Learning and Quantitative Finance](https://github.com/user-attachments/assets/37911503-1277-4eec-b856-bb801ca9b45b)
 
 
