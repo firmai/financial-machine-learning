@@ -14,7 +14,7 @@ We're seeking to collaborate with motivated, independent PhD graduates or doctor
 
 ### 🚀 About Sov.ai
 
-Sov.ai is at the forefront of integrating advanced machine learning techniques with financial data analysis to revolutionize investment strategies. We are working with 3 of the top 10 quantitative hedge funds, and with many mid-sized and boutique firms. 
+Sov.ai is at the forefront of integrating advanced machine learning techniques with financial data analysis to revolutionize investment strategies. We are working with **3 of the top 10** quantitative hedge funds, and with many mid-sized and boutique firms. 
 
 Our platform leverages diverse data sources and innovative algorithms to deliver actionable insights that drive smarter investment decisions. 
 
